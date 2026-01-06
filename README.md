@@ -28,7 +28,7 @@ Building on Windows
 -------------------
 
 1. Download and Install [Visual Studio 6.0 Professional Edition].
-2. Open the solution in the Sources folder, select Release x64 or Release Win32 and compile it.
+2. To build, use the instructions inside the subdirectories.
 
 License
 -------
@@ -38,5 +38,6 @@ License
 * zlib (located in `Sources/Engine/zlib`) by Jean-loup Gailly and Mark Adler
 * LightWave SDK (located in `Sources/LWSkaExporter/SDK`) by NewTek Inc.
 * libogg/libvorbis (located in `Sources/libogg` and `Sources/libvorbis`) by Xiph.Org Foundation
+
 
 [Visual Studio 6.0 Professional Edition]: https://archive.org/details/en_vs60_pro "Visual Studio 6.0 Professional Edition"
