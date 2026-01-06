@@ -1,0 +1,178 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Modeler - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/Modeler.res" /d "NDEBUG" /d "_AFXDLL" "C:\SAM_v110\Src110_X42\Modeler\Modeler.rc"" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP77F1.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /I "C:\SAM_v110\Src110_X42\Include" /I "C:\SAM_v110\Src110_X42" /D "SE1_D3D" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Modeler.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\Modeler\AnimComboBox.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\ChildFrm.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\ChoosedColorButton.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\ColoredButton.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\CtrlEditBoolean.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\DlgAutoMipModeling.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\DlgChooseAnim.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\DlgCreateReflectionTexture.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\DlgCreateSpecularTexture.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\DlgExportForSkinning.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\DlgInfoFrame.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\DlgInfoPgAnim.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\DlgInfoPgGlobal.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\DlgInfoPgMip.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\DlgInfoPgNone.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\DlgInfoPgPos.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\DlgInfoPgRendering.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\DlgInfoSheet.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\DlgMarkLinkedSurfaces.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\DlgMultiplyMapping.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\DlgNewProgress.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\DlgNumericAlpha.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\DlgPgCollision.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\DlgPgInfoAttachingPlacement.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\DlgPgInfoAttachingSound.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\DlgPleaseWait.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\DlgPreferences.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\LinkedSurfaceList.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\MainFrm.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\Modeler.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\ModelerDoc.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\ModelerView.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\PaletteButton.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\PaletteDialog.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\PatchPalette.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\PatchPaletteButton.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\ScriptDoc.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\ScriptView.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\SkyFloat.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\StainsComboBox.cpp"
+"C:\SAM_v110\Src110_X42\Modeler\TextureComboBox.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP77F1.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP77F2.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /I "C:\SAM_v110\Src110_X42\Include" /I "C:\SAM_v110\Src110_X42" /D "SE1_D3D" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Modeler.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\Modeler\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP77F2.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP77F3.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/SeriousModeler.pdb" /machine:I386 /out:"Release/SeriousModeler.exe" /libpath:"C:\SAM_v110\Src110_X42\Bin" /libpath:"C:\SAM_v110\Src110_X42\Bin\Debug" /libpath:"C:\SAM_v110\Src110_X42\Lib" 
+.\Release\AnimComboBox.obj
+.\Release\ChildFrm.obj
+.\Release\ChoosedColorButton.obj
+.\Release\ColoredButton.obj
+.\Release\CtrlEditBoolean.obj
+.\Release\DlgAutoMipModeling.obj
+.\Release\DlgChooseAnim.obj
+.\Release\DlgCreateReflectionTexture.obj
+.\Release\DlgCreateSpecularTexture.obj
+.\Release\DlgExportForSkinning.obj
+.\Release\DlgInfoFrame.obj
+.\Release\DlgInfoPgAnim.obj
+.\Release\DlgInfoPgGlobal.obj
+.\Release\DlgInfoPgMip.obj
+.\Release\DlgInfoPgNone.obj
+.\Release\DlgInfoPgPos.obj
+.\Release\DlgInfoPgRendering.obj
+.\Release\DlgInfoSheet.obj
+.\Release\DlgMarkLinkedSurfaces.obj
+.\Release\DlgMultiplyMapping.obj
+.\Release\DlgNewProgress.obj
+.\Release\DlgNumericAlpha.obj
+.\Release\DlgPgCollision.obj
+.\Release\DlgPgInfoAttachingPlacement.obj
+.\Release\DlgPgInfoAttachingSound.obj
+.\Release\DlgPleaseWait.obj
+.\Release\DlgPreferences.obj
+.\Release\LinkedSurfaceList.obj
+.\Release\MainFrm.obj
+.\Release\Modeler.obj
+.\Release\ModelerDoc.obj
+.\Release\ModelerView.obj
+.\Release\PaletteButton.obj
+.\Release\PaletteDialog.obj
+.\Release\PatchPalette.obj
+.\Release\PatchPaletteButton.obj
+.\Release\ScriptDoc.obj
+.\Release\ScriptView.obj
+.\Release\SkyFloat.obj
+.\Release\StainsComboBox.obj
+.\Release\StdAfx.obj
+.\Release\TextureComboBox.obj
+.\Release\Modeler.res
+\SAM_v110\Src110_X42\EngineGUI\Release\EngineGUI.lib
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP77F3.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP7803.bat" with contents
+[
+@echo off
+copy Release\SeriousModeler.exe C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP7803.bat"
+Compiling resources...
+Compiling...
+StdAfx.cpp
+>> Uncomment include to terrain.h
+Compiling...
+AnimComboBox.cpp
+ChildFrm.cpp
+ChoosedColorButton.cpp
+ColoredButton.cpp
+CtrlEditBoolean.cpp
+DlgAutoMipModeling.cpp
+DlgChooseAnim.cpp
+DlgCreateReflectionTexture.cpp
+DlgCreateSpecularTexture.cpp
+DlgExportForSkinning.cpp
+DlgInfoFrame.cpp
+DlgInfoPgAnim.cpp
+DlgInfoPgGlobal.cpp
+DlgInfoPgMip.cpp
+DlgInfoPgNone.cpp
+DlgInfoPgPos.cpp
+DlgInfoPgRendering.cpp
+DlgInfoSheet.cpp
+DlgMarkLinkedSurfaces.cpp
+DlgMultiplyMapping.cpp
+Generating Code...
+Compiling...
+DlgNewProgress.cpp
+DlgNumericAlpha.cpp
+DlgPgCollision.cpp
+DlgPgInfoAttachingPlacement.cpp
+DlgPgInfoAttachingSound.cpp
+DlgPleaseWait.cpp
+DlgPreferences.cpp
+LinkedSurfaceList.cpp
+MainFrm.cpp
+Modeler.cpp
+ModelerDoc.cpp
+ModelerView.cpp
+PaletteButton.cpp
+PaletteDialog.cpp
+PatchPalette.cpp
+PatchPaletteButton.cpp
+ScriptDoc.cpp
+ScriptView.cpp
+SkyFloat.cpp
+StainsComboBox.cpp
+Generating Code...
+Compiling...
+TextureComboBox.cpp
+Generating Code...
+Linking...
+<h3>Output Window</h3>
+Copying SeriousModeler binaries to C:\SAM_v110\Src110_X42\Bin
+
+
+
+<h3>Results</h3>
+SeriousModeler.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

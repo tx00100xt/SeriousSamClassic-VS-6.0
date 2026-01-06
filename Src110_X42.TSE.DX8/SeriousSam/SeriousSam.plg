@@ -1,0 +1,282 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: amp11lib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP8D6.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /I "binfile" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "AMP11LIB_EXPORTS" /Fp"Release/amp11lib.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\amp11lib\binfile\binfarc.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\binfile\binfcon.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\binfile\binfhttp.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\binfile\binfile.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\binfile\binfilef.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\binfile\binfmem.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\binfile\binfplnt.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\binfile\binfplwv.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\binfile\binfstd.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\binfile\binftcp.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\amp11lib.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\amp1dec.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\amp2dec.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\amp3dec.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\ampdec.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\ampsynth.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\mpgsplit.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP8D6.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP8D7.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/amp11lib.pdb" /debug /machine:I386 /out:"Release/amp11lib.dll" /implib:"Release/amp11lib.lib" 
+.\Release\binfarc.obj
+.\Release\binfcon.obj
+.\Release\binfhttp.obj
+.\Release\binfile.obj
+.\Release\binfilef.obj
+.\Release\binfmem.obj
+.\Release\binfplnt.obj
+.\Release\binfplwv.obj
+.\Release\binfstd.obj
+.\Release\binftcp.obj
+.\Release\amp11lib.obj
+.\Release\amp1dec.obj
+.\Release\amp2dec.obj
+.\Release\amp3dec.obj
+.\Release\ampdec.obj
+.\Release\ampsynth.obj
+.\Release\mpgsplit.obj
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP8D7.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP8D8.bat" with contents
+[
+@echo off
+copy Release\amp11lib.dll C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\amp11lib.map C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\amp11lib.lib C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP8D8.bat"
+Compiling...
+binfarc.cpp
+binfcon.cpp
+binfhttp.cpp
+binfile.cpp
+binfilef.cpp
+binfmem.cpp
+binfplnt.cpp
+binfplwv.cpp
+binfstd.cpp
+binftcp.cpp
+amp11lib.cpp
+amp1dec.cpp
+amp2dec.cpp
+amp3dec.cpp
+ampdec.cpp
+ampsynth.cpp
+mpgsplit.cpp
+Linking...
+   Creating library Release/amp11lib.lib and object Release/amp11lib.exp
+<h3>Output Window</h3>
+Copying amp11lib binaries to C:\SAM_v110\Src110_X42\Bin
+<h3>
+--------------------Configuration: ogg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP17CD.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "C:\SAM_v110\Src110_X42" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /Fp"Release/ogg.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\ogg\bitwise.c"
+"C:\SAM_v110\Src110_X42\ogg\framing.c"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP17CD.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP17CE.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/ogg.pdb" /machine:I386 /def:".\ogg.def" /out:"Release/ogg.dll" /implib:"Release/ogg.lib" 
+.\Release\bitwise.obj
+.\Release\framing.obj
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP17CE.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP17CF.bat" with contents
+[
+@echo off
+copy Release\ogg.dll C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\ogg.map C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\ogg.lib C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP17CF.bat"
+Compiling...
+bitwise.c
+framing.c
+Linking...
+   Creating library Release/ogg.lib and object Release/ogg.exp
+<h3>Output Window</h3>
+Copying ogg binaries to C:\SAM_v110\Src110_X42\Bin
+<h3>
+--------------------Configuration: vorbis - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP1BB8.tmp" with contents
+[
+/nologo /MD /GX /O2 /I "C:\SAM_v110\Src110_X42" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "VORBIS_IEEE_FLOAT32" /D "_USE_NON_INTEL_COMPILER" /Fp"Release/vorbis.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\vorbis\analysis.c"
+"C:\SAM_v110\Src110_X42\vorbis\bitrate.c"
+"C:\SAM_v110\Src110_X42\vorbis\block.c"
+"C:\SAM_v110\Src110_X42\vorbis\codebook.c"
+"C:\SAM_v110\Src110_X42\vorbis\envelope.c"
+"C:\SAM_v110\Src110_X42\vorbis\floor0.c"
+"C:\SAM_v110\Src110_X42\vorbis\floor1.c"
+"C:\SAM_v110\Src110_X42\vorbis\info.c"
+"C:\SAM_v110\Src110_X42\vorbis\lookup.c"
+"C:\SAM_v110\Src110_X42\vorbis\lpc.c"
+"C:\SAM_v110\Src110_X42\vorbis\lsp.c"
+"C:\SAM_v110\Src110_X42\vorbis\mapping0.c"
+"C:\SAM_v110\Src110_X42\vorbis\mdct.c"
+"C:\SAM_v110\Src110_X42\vorbis\psy.c"
+"C:\SAM_v110\Src110_X42\vorbis\registry.c"
+"C:\SAM_v110\Src110_X42\vorbis\res0.c"
+"C:\SAM_v110\Src110_X42\vorbis\sharedbook.c"
+"C:\SAM_v110\Src110_X42\vorbis\smallft.c"
+"C:\SAM_v110\Src110_X42\vorbis\synthesis.c"
+"C:\SAM_v110\Src110_X42\vorbis\vorbisenc.c"
+"C:\SAM_v110\Src110_X42\vorbis\window.c"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP1BB8.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP1BB9.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ogg.lib /nologo /dll /incremental:no /pdb:"Release/vorbis.pdb" /machine:I386 /def:".\vorbis.def" /out:"Release/vorbis.dll" /implib:"Release/vorbis.lib" /libpath:"C:\SAM_v110\Src110_X42\Bin" 
+.\Release\analysis.obj
+.\Release\bitrate.obj
+.\Release\block.obj
+.\Release\codebook.obj
+.\Release\envelope.obj
+.\Release\floor0.obj
+.\Release\floor1.obj
+.\Release\info.obj
+.\Release\lookup.obj
+.\Release\lpc.obj
+.\Release\lsp.obj
+.\Release\mapping0.obj
+.\Release\mdct.obj
+.\Release\psy.obj
+.\Release\registry.obj
+.\Release\res0.obj
+.\Release\sharedbook.obj
+.\Release\smallft.obj
+.\Release\synthesis.obj
+.\Release\vorbisenc.obj
+.\Release\window.obj
+\SAM_v110\Src110_X42\ogg\Release\ogg.lib
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP1BB9.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP1BBA.bat" with contents
+[
+@echo off
+copy Release\vorbis.dll C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\vorbis.map C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\vorbis.lib C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP1BBA.bat"
+Compiling...
+analysis.c
+bitrate.c
+block.c
+codebook.c
+envelope.c
+floor0.c
+floor1.c
+info.c
+lookup.c
+lpc.c
+lsp.c
+mapping0.c
+mdct.c
+psy.c
+registry.c
+res0.c
+sharedbook.c
+smallft.c
+synthesis.c
+vorbisenc.c
+window.c
+Linking...
+   Creating library Release/vorbis.lib and object Release/vorbis.exp
+<h3>Output Window</h3>
+Copying vorbis binaries to C:\SAM_v110\Src110_X42\Bin
+<h3>
+--------------------Configuration: vorbisfile - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP3454.tmp" with contents
+[
+/nologo /MD /w /W0 /GX /O2 /I "C:\SAM_v110\Src110_X42" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WIN32" /D "VORBIS_IEEE_FLOAT32" /D "_USE_NON_INTEL_COMPILER" /Fp"Release/vorbisfile.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\vorbis\vorbisfile.c"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP3454.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP3455.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ogg.lib vorbis.lib /nologo /dll /incremental:no /pdb:"Release/vorbisfile.pdb" /machine:I386 /def:".\vorbisfile.def" /out:"Release/vorbisfile.dll" /implib:"Release/vorbisfile.lib" /libpath:".\Release" /libpath:"C:\SAM_v110\Src110_X42\Bin" 
+.\Release\vorbisfile.obj
+.\Release\vorbis.lib
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP3455.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP3456.bat" with contents
+[
+@echo off
+copy Release\vorbisfile.dll C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\vorbisfile.map C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\vorbisfile.lib C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP3456.bat"
+Compiling...
+vorbisfile.c
+Linking...
+   Creating library Release/vorbisfile.lib and object Release/vorbisfile.exp
+<h3>Output Window</h3>
+Copying vorbisfile binaries to C:\SAM_v110\Src110_X42\Bin
+<h3>
+--------------------Configuration: SeriousSam - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP37C2.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/SeriousSam.pdb" /machine:I386 /out:"Release/SeriousSam.exe" /libpath:"C:\SAM_v110\Src110_X42\Bin" /libpath:"C:\SAM_v110\Src110_X42\Bin\Debug" /libpath:"C:\SAM_v110\Src110_X42\Lib" 
+.\Release\CmdLine.obj
+.\Release\Credits.obj
+.\Release\GLSettings.obj
+.\Release\LCDDrawing.obj
+.\Release\LevelInfo.obj
+.\Release\MainWindow.obj
+.\Release\Menu.obj
+.\Release\MenuGadgets.obj
+.\Release\MenuPrinting.obj
+.\Release\SeriousSam.obj
+.\Release\SplashScreen.obj
+.\Release\StdH.obj
+.\Release\VarList.obj
+.\Release\SeriousSam.res
+\SAM_v110\Src110_X42\Engine\Release\Engine.lib
+\SAM_v110\Src110_X42\EntitiesMP\Release\EntitiesMP.lib
+\SAM_v110\Src110_X42\GameMP\Release\GameMP.lib
+\SAM_v110\Src110_X42\amp11lib\Release\amp11lib.lib
+\SAM_v110\Src110_X42\vorbis\Release\vorbisfile.lib
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP37C2.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP37C3.bat" with contents
+[
+@echo off
+copy Release\SeriousSam.exe C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP37C3.bat"
+Linking...
+<h3>Output Window</h3>
+Copying SeriousSam binaries to C:\SAM_v110\Src110_X42\Bin
+
+
+
+<h3>Results</h3>
+SeriousSam.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GameMP - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP472C.tmp" with contents
+[
+user32.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/Game.pdb" /map:"Release/Game.map" /debug /machine:I386 /out:"Release/Game.dll" /implib:"Release/Game.lib" /pdbtype:sept /libpath:"C:\SAM_v110\Src110_X42\Bin" /libpath:"C:\SAM_v110\Src110_X42\Bin\Debug" /libpath:"C:\SAM_v110\Src110_X42\Lib" 
+.\Release\Camera.obj
+.\Release\CompMessage.obj
+.\Release\CompModels.obj
+.\Release\Computer.obj
+.\Release\Console.obj
+.\Release\Controls.obj
+.\Release\Game.obj
+.\Release\LCDDrawing.obj
+.\Release\LoadingHook.obj
+.\Release\Map.obj
+.\Release\SessionProperties.obj
+.\Release\StdAfx.obj
+.\Release\WEDInterface.obj
+\SAM_v110\Src110_X42\Entities\Release\Entities.lib
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP472C.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP472D.bat" with contents
+[
+@echo off
+copy Release\Game.dll C:\SAM_v110\Src110_X42\Bin\Game.dll >nul
+copy Release\Game.map C:\SAM_v110\Src110_X42\Bin\Game.map >nul
+copy Release\Game.lib C:\SAM_v110\Src110_X42\Bin\Game.lib >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP472D.bat"
+Linking...
+   Creating library Release/Game.lib and object Release/Game.exp
+<h3>Output Window</h3>
+Copying Game binaries to C:\SAM_v110\Src110_X42\Bin
+
+
+
+<h3>Results</h3>
+Game.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

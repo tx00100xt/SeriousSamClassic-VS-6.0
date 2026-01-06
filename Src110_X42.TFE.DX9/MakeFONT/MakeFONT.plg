@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MakeFONT - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP7DD5.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /I "C:\SAM_v110\Src110_X42\Include" /I "C:\SAM_v110\Src110_X42" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /D "_AFXDLL" /Fp"Release/MakeFONT.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\MakeFONT\MakeFONT.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP7DD5.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP7DD6.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /I "C:\SAM_v110\Src110_X42\Include" /I "C:\SAM_v110\Src110_X42" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /D "_AFXDLL" /Fp"Release/MakeFONT.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\MakeFONT\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP7DD6.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP7DD7.tmp" with contents
+[
+/nologo /subsystem:console /incremental:no /pdb:"Release/MakeFONT.pdb" /machine:I386 /out:"Release/MakeFONT.exe" /libpath:"C:\SAM_v110\Src110_X42\Bin" /libpath:"C:\SAM_v110\Src110_X42\Bin\Debug" /libpath:"C:\SAM_v110\Src110_X42\Lib" 
+.\Release\MakeFONT.obj
+.\Release\StdAfx.obj
+\SAM_v110\Src110_X42\Engine\Release\Engine.lib
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP7DD7.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP7DD8.bat" with contents
+[
+@echo off
+copy Release\MakeFONT.exe C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP7DD8.bat"
+Compiling...
+StdAfx.cpp
+Compiling...
+MakeFONT.cpp
+>> Uncomment include to terrain.h
+Linking...
+<h3>Output Window</h3>
+Copying MakeFONT binaries to C:\SAM_v110\Src110_X42\Bin
+
+
+
+<h3>Results</h3>
+MakeFONT.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

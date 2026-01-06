@@ -1,0 +1,85 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LWSkaExporter - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\SunRise\AppData\Local\Temp\RSPEC7D.tmp" with contents
+[
+/nologo /G6 /MD /W3 /GX /Zi /Ox /Ot /Og /Oi /Oy- /I ".\SDK" /I "..\\" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LWSKAEXPORTER_EXPORTS" /D "_X86_" /D "_WIN32" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_MODS\Src110_X42\LWSkaExporter\AnimExport.cpp"
+"C:\SAM_MODS\Src110_X42\LWSkaExporter\CopyWeightMaps.cpp"
+"C:\SAM_MODS\Src110_X42\LWSkaExporter\Master.cpp"
+"C:\SAM_MODS\Src110_X42\LWSkaExporter\MeshExport.cpp"
+"C:\SAM_MODS\Src110_X42\LWSkaExporter\ModelerMeshExporter.cpp"
+"C:\SAM_MODS\Src110_X42\LWSkaExporter\plugin.cpp"
+"C:\SAM_MODS\Src110_X42\LWSkaExporter\SectionsExport.cpp"
+"C:\SAM_MODS\Src110_X42\LWSkaExporter\servmain.c"
+"C:\SAM_MODS\Src110_X42\LWSkaExporter\shutdown.c"
+"C:\SAM_MODS\Src110_X42\LWSkaExporter\startup.c"
+"C:\SAM_MODS\Src110_X42\LWSkaExporter\SurfaceParameters.cpp"
+"C:\SAM_MODS\Src110_X42\LWSkaExporter\username.c"
+"C:\SAM_MODS\Src110_X42\LWSkaExporter\vecmat.c"
+]
+Creating command line "cl.exe @C:\Users\SunRise\AppData\Local\Temp\RSPEC7D.tmp" 
+Creating temporary file "C:\Users\SunRise\AppData\Local\Temp\RSPEC7E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/LWSkaExporter.pdb" /map:"Release/LWSkaExporter.map" /debug /machine:I386 /def:".\serv.def" /out:"Release/LWSkaExporter.p" /implib:"Release/LWSkaExporter.lib" /pdbtype:sept 
+.\Release\AnimExport.obj
+.\Release\CopyWeightMaps.obj
+.\Release\Master.obj
+.\Release\MeshExport.obj
+.\Release\ModelerMeshExporter.obj
+.\Release\plugin.obj
+.\Release\SectionsExport.obj
+.\Release\servmain.obj
+.\Release\shutdown.obj
+.\Release\startup.obj
+.\Release\SurfaceParameters.obj
+.\Release\username.obj
+.\Release\vecmat.obj
+]
+Creating command line "link.exe @C:\Users\SunRise\AppData\Local\Temp\RSPEC7E.tmp"
+Creating temporary file "C:\Users\SunRise\AppData\Local\Temp\RSPEC7F.bat" with contents
+[
+@echo off
+copy Release\LWSkaExporter.p C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\LWSkaExporter.map C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\LWSkaExporter.lib C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\SunRise\AppData\Local\Temp\RSPEC7F.bat"
+Compiling...
+AnimExport.cpp
+CopyWeightMaps.cpp
+Master.cpp
+MeshExport.cpp
+ModelerMeshExporter.cpp
+plugin.cpp
+SectionsExport.cpp
+Generating Code...
+Compiling...
+servmain.c
+shutdown.c
+startup.c
+Generating Code...
+Compiling...
+SurfaceParameters.cpp
+Generating Code...
+Compiling...
+username.c
+vecmat.c
+Generating Code...
+Linking...
+   Creating library Release/LWSkaExporter.lib and object Release/LWSkaExporter.exp
+<h3>Output Window</h3>
+Copying LWSkaExporter binaries to C:\SAM_v110\Src110_X42\Bin
+
+
+
+<h3>Results</h3>
+LWSkaExporter.p - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

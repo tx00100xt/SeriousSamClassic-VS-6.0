@@ -1,0 +1,959 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Ecc - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPE8C2.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /I "C:\SAM_v110\Src110_X42" /I "C:\SAM_v110\Src110_X42\Include" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/Ecc.pch" /Yu"StdH.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\Ecc\Main.cpp"
+"C:\SAM_v110\Src110_X42\Ecc\Parser.cpp"
+"C:\SAM_v110\Src110_X42\Ecc\Scanner.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPE8C2.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPE8C3.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /I "C:\SAM_v110\Src110_X42" /I "C:\SAM_v110\Src110_X42\Include" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/Ecc.pch" /Yc"StdH.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\Ecc\StdH.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPE8C3.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPE8C4.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/Ecc.pdb" /machine:I386 /out:"Release/Ecc.exe" /libpath:"C:\SAM_v110\Src110_X42\Bin" /libpath:"C:\SAM_v110\Src110_X42\Bin\Debug" /libpath:"C:\SAM_v110\Src110_X42\Lib" 
+.\Release\Main.obj
+.\Release\Parser.obj
+.\Release\Scanner.obj
+.\Release\StdH.obj
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPE8C4.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPE8C5.bat" with contents
+[
+@echo off
+copy Release\Ecc.exe C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPE8C5.bat"
+Compiling...
+StdH.cpp
+Compiling...
+Main.cpp
+Parser.cpp
+Scanner.cpp
+Generating Code...
+Linking...
+<h3>Output Window</h3>
+Copying Ecc binaries to C:\SAM_v110\Src110_X42\Bin
+<h3>
+--------------------Configuration: Engine - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPEFFA.bat" with contents
+[
+@echo off
+cd
+cl /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/Engine.pch" /Fo"Release/" /Fd"Release/" /FD /c .\zlib\zutil.c
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPEFFA.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPEFFB.bat" with contents
+[
+@echo off
+cd
+cl /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/Engine.pch" /Fo"Release/" /Fd"Release/" /FD /c .\zlib\uncompr.c
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPEFFB.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF00B.bat" with contents
+[
+@echo off
+cd
+cl /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/Engine.pch" /Fo"Release/" /Fd"Release/" /FD /c .\zlib\trees.c
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF00B.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF00C.bat" with contents
+[
+@echo off
+cd
+cl /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/Engine.pch" /Fo"Release/" /Fd"Release/" /FD /c .\zlib\infutil.c
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF00C.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF00D.bat" with contents
+[
+@echo off
+cd
+cl /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/Engine.pch" /Fo"Release/" /Fd"Release/" /FD /c .\zlib\inftrees.c
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF00D.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF00E.bat" with contents
+[
+@echo off
+cd
+cl /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/Engine.pch" /Fo"Release/" /Fd"Release/" /FD /c .\zlib\inflate.c
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF00E.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF00F.bat" with contents
+[
+@echo off
+cd
+cl /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/Engine.pch" /Fo"Release/" /Fd"Release/" /FD /c .\zlib\inffast.c
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF00F.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF010.bat" with contents
+[
+@echo off
+cd
+cl /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/Engine.pch" /Fo"Release/" /Fd"Release/" /FD /c .\zlib\infcodes.c
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF010.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF011.bat" with contents
+[
+@echo off
+cd
+cl /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/Engine.pch" /Fo"Release/" /Fd"Release/" /FD /c .\zlib\infblock.c
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF011.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF012.bat" with contents
+[
+@echo off
+cd
+cl /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/Engine.pch" /Fo"Release/" /Fd"Release/" /FD /c .\zlib\deflate.c
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF012.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF013.bat" with contents
+[
+@echo off
+cd
+cl /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/Engine.pch" /Fo"Release/" /Fd"Release/" /FD /c .\zlib\compress.c
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF013.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF014.bat" with contents
+[
+@echo off
+cd
+cl /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/Engine.pch" /Fo"Release/" /Fd"Release/" /FD /c .\zlib\adler32.c
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF014.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF015.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /I "C:\SAM_v110\Src110_X42\Include" /I "C:\SAM_v110\Src110_X42" /D "SE1_D3D" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/Engine.pch" /Yu"StdH.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\Engine\Base\Anim.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Changeable.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Console.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\CRC.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\CRCTable.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\CTString.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Directory.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\ErrorReporting.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\FileName.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\IFeel.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Input.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Lists.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Memory.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Profiling.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\ProgressHook.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Protection.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Registry.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Relations.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\ReplaceFile.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Serial.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Shell.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\ShellTypes.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Statistics.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Stream.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Synchronization.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Timer.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Translation.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Unzip.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Updateable.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Brushes\Brush.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Brushes\BrushArchive.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Brushes\BrushExport.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Brushes\BrushImport.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Brushes\BrushIO.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Brushes\BrushMip.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Brushes\BrushPolygon.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Brushes\BrushSector.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Brushes\BrushShadows.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Brushes\BrushTriangularize.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Entities\Entity.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Entities\EntityClass.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Entities\EntityCollision.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Entities\EntityCopying.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Entities\EntityProperties.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Entities\FieldBSPTesting.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Entities\LastPositions.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Entities\NearestPolygon.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Entities\PlayerCharacter.cpp"
+"C:\SAM_v110\Src110_X42\Engine\GameAgent\GameAgent.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Adapter.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Benchmark.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Color.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\DepthCheck.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\DisplayMode.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\DrawPort.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\DrawPort_Particles.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\DrawPort_RenderScene.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Fog.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Font.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Gfx_Direct3D.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Gfx_Direct3D_Colors.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Gfx_Direct3D_Textures.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Gfx_OpenGL.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Gfx_OpenGL_Textures.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Gfx_wrapper.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\GfxLibrary.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\GfxProfile.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Graphics.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\ImageInfo.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\MultiMonitor.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Raster.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Shader.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\ShadowMap.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Stereo.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Texture.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\TextureEffects.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\TextureRender.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\ViewPort.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Light\LayerMaker.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Light\LayerMixer.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Light\LightSource.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\Float.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\Functions.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\Geometry.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\Geometry_DOUBLE.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\Object3D.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\Object3D_CSG.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\Object3D_IO.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\ObjectSector.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\Placement.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\Projection.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\Projection_Isometric.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\Projection_Parallel.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\Projection_Perspective.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\Projection_Simple.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\Projection_Simple_DOUBLE.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\TextureMapping.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Models\EditModel.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Models\MipMaker.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Models\Model.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Models\ModelProfile.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Models\Normals.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Models\RenderModel.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Models\RenderModel_Mask.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Models\RenderModel_View.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Models\VertexGetting.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\ActionBuffer.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\Buffer.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\ClientInterface.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\CommunicationInterface.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\Compression.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\CPacket.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\Diff.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\MessageDispatcher.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\Network.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\NetworkMessage.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\NetworkProfile.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\PlayerBuffer.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\PlayerSource.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\PlayerTarget.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\Server.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\SessionState.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Rendering\Render.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Rendering\RenderProfile.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Rendering\SelectOnRender.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Ska\AnimSet.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Ska\Mesh.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Ska\ModelInstance.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Ska\RMRender.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Ska\RMRenderMask.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Ska\Skeleton.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Ska\StringTable.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Sound\SoundData.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Sound\SoundDecoder.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Sound\SoundLibrary.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Sound\SoundMixer.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Sound\SoundObject.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Sound\SoundProfile.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Sound\Wave.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Templates\BSP.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Templates\NameTable_CTFileName.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Templates\NameTable_CTranslationPair.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Templates\Stock_CAnimData.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Templates\Stock_CAnimSet.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Templates\Stock_CEntityClass.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Templates\Stock_CMesh.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Templates\Stock_CModelData.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Templates\Stock_CShader.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Templates\Stock_CSkeleton.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Templates\Stock_CSoundData.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Templates\Stock_CTextureData.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Terrain\ArrayHolder.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Terrain\Terrain.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Terrain\TerrainArchive.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Terrain\TerrainEditing.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Terrain\TerrainLayer.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Terrain\TerrainMisc.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Terrain\TerrainRayCasting.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Terrain\TerrainRender.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Terrain\TerrainTile.cpp"
+"C:\SAM_v110\Src110_X42\Engine\World\PhysicsProfile.cpp"
+"C:\SAM_v110\Src110_X42\Engine\World\World.cpp"
+"C:\SAM_v110\Src110_X42\Engine\World\WorldCollision.cpp"
+"C:\SAM_v110\Src110_X42\Engine\World\WorldCollisionGrid.cpp"
+"C:\SAM_v110\Src110_X42\Engine\World\WorldCSG.cpp"
+"C:\SAM_v110\Src110_X42\Engine\World\WorldEditingProfile.cpp"
+"C:\SAM_v110\Src110_X42\Engine\World\WorldIO.cpp"
+"C:\SAM_v110\Src110_X42\Engine\World\WorldRayCasting.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Engine.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Classes\BaseEvents.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Classes\MovableBrushEntity.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Classes\MovableEntity.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Classes\MovableModelEntity.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Parser.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Classes\PlayerEntity.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Scanner.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Ska\smcPars.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Ska\smcScan.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPF015.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF016.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /I "C:\SAM_v110\Src110_X42\Include" /I "C:\SAM_v110\Src110_X42" /D "SE1_D3D" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/Engine.pch" /Yc"StdH.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\Engine\StdH.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPF016.tmp" 
+Performing Custom Build Step on .\zlib\zutil.c
+C:\SAM_v110\Src110_X42\Engine
+zutil.c
+Performing Custom Build Step on .\zlib\uncompr.c
+C:\SAM_v110\Src110_X42\Engine
+uncompr.c
+Performing Custom Build Step on .\zlib\trees.c
+C:\SAM_v110\Src110_X42\Engine
+trees.c
+Performing Custom Build Step on .\zlib\infutil.c
+C:\SAM_v110\Src110_X42\Engine
+infutil.c
+Performing Custom Build Step on .\zlib\inftrees.c
+C:\SAM_v110\Src110_X42\Engine
+inftrees.c
+Performing Custom Build Step on .\zlib\inflate.c
+C:\SAM_v110\Src110_X42\Engine
+inflate.c
+Performing Custom Build Step on .\zlib\inffast.c
+C:\SAM_v110\Src110_X42\Engine
+inffast.c
+Performing Custom Build Step on .\zlib\infcodes.c
+C:\SAM_v110\Src110_X42\Engine
+infcodes.c
+Performing Custom Build Step on .\zlib\infblock.c
+C:\SAM_v110\Src110_X42\Engine
+infblock.c
+Performing Custom Build Step on .\zlib\deflate.c
+C:\SAM_v110\Src110_X42\Engine
+deflate.c
+Performing Custom Build Step on .\zlib\compress.c
+C:\SAM_v110\Src110_X42\Engine
+compress.c
+Performing Custom Build Step on .\zlib\adler32.c
+C:\SAM_v110\Src110_X42\Engine
+adler32.c
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF76A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/Engine.pdb" /machine:I386 /out:"Release/Engine.dll" /implib:"Release/Engine.lib" /libpath:"C:\SAM_v110\Src110_X42\Bin" /libpath:"C:\SAM_v110\Src110_X42\Bin\Debug" /libpath:"C:\SAM_v110\Src110_X42\Lib" 
+.\Release\Anim.obj
+.\Release\Changeable.obj
+.\Release\Console.obj
+.\Release\CRC.obj
+.\Release\CRCTable.obj
+.\Release\CTString.obj
+.\Release\Directory.obj
+.\Release\ErrorReporting.obj
+.\Release\FileName.obj
+.\Release\IFeel.obj
+.\Release\Input.obj
+.\Release\Lists.obj
+.\Release\Memory.obj
+.\Release\Profiling.obj
+.\Release\ProgressHook.obj
+.\Release\Protection.obj
+.\Release\Registry.obj
+.\Release\Relations.obj
+.\Release\ReplaceFile.obj
+.\Release\Serial.obj
+.\Release\Shell.obj
+.\Release\ShellTypes.obj
+.\Release\Statistics.obj
+.\Release\Stream.obj
+.\Release\Synchronization.obj
+.\Release\Timer.obj
+.\Release\Translation.obj
+.\Release\Unzip.obj
+.\Release\Updateable.obj
+.\Release\Brush.obj
+.\Release\BrushArchive.obj
+.\Release\BrushExport.obj
+.\Release\BrushImport.obj
+.\Release\BrushIO.obj
+.\Release\BrushMip.obj
+.\Release\BrushPolygon.obj
+.\Release\BrushSector.obj
+.\Release\BrushShadows.obj
+.\Release\BrushTriangularize.obj
+.\Release\Entity.obj
+.\Release\EntityClass.obj
+.\Release\EntityCollision.obj
+.\Release\EntityCopying.obj
+.\Release\EntityProperties.obj
+.\Release\FieldBSPTesting.obj
+.\Release\LastPositions.obj
+.\Release\NearestPolygon.obj
+.\Release\PlayerCharacter.obj
+.\Release\GameAgent.obj
+.\Release\Adapter.obj
+.\Release\Benchmark.obj
+.\Release\Color.obj
+.\Release\DepthCheck.obj
+.\Release\DisplayMode.obj
+.\Release\DrawPort.obj
+.\Release\DrawPort_Particles.obj
+.\Release\DrawPort_RenderScene.obj
+.\Release\Fog.obj
+.\Release\Font.obj
+.\Release\Gfx_Direct3D.obj
+.\Release\Gfx_Direct3D_Colors.obj
+.\Release\Gfx_Direct3D_Textures.obj
+.\Release\Gfx_OpenGL.obj
+.\Release\Gfx_OpenGL_Textures.obj
+.\Release\Gfx_wrapper.obj
+.\Release\GfxLibrary.obj
+.\Release\GfxProfile.obj
+.\Release\Graphics.obj
+.\Release\ImageInfo.obj
+.\Release\MultiMonitor.obj
+.\Release\Raster.obj
+.\Release\Shader.obj
+.\Release\ShadowMap.obj
+.\Release\Stereo.obj
+.\Release\Texture.obj
+.\Release\TextureEffects.obj
+.\Release\TextureRender.obj
+.\Release\ViewPort.obj
+.\Release\LayerMaker.obj
+.\Release\LayerMixer.obj
+.\Release\LightSource.obj
+.\Release\Float.obj
+.\Release\Functions.obj
+.\Release\Geometry.obj
+.\Release\Geometry_DOUBLE.obj
+.\Release\Object3D.obj
+.\Release\Object3D_CSG.obj
+.\Release\Object3D_IO.obj
+.\Release\ObjectSector.obj
+.\Release\Placement.obj
+.\Release\Projection.obj
+.\Release\Projection_Isometric.obj
+.\Release\Projection_Parallel.obj
+.\Release\Projection_Perspective.obj
+.\Release\Projection_Simple.obj
+.\Release\Projection_Simple_DOUBLE.obj
+.\Release\TextureMapping.obj
+.\Release\EditModel.obj
+.\Release\MipMaker.obj
+.\Release\Model.obj
+.\Release\ModelProfile.obj
+.\Release\Normals.obj
+.\Release\RenderModel.obj
+.\Release\RenderModel_Mask.obj
+.\Release\RenderModel_View.obj
+.\Release\VertexGetting.obj
+.\Release\ActionBuffer.obj
+.\Release\Buffer.obj
+.\Release\ClientInterface.obj
+.\Release\CommunicationInterface.obj
+.\Release\Compression.obj
+.\Release\CPacket.obj
+.\Release\Diff.obj
+.\Release\MessageDispatcher.obj
+.\Release\Network.obj
+.\Release\NetworkMessage.obj
+.\Release\NetworkProfile.obj
+.\Release\PlayerBuffer.obj
+.\Release\PlayerSource.obj
+.\Release\PlayerTarget.obj
+.\Release\Server.obj
+.\Release\SessionState.obj
+.\Release\Render.obj
+.\Release\RenderProfile.obj
+.\Release\SelectOnRender.obj
+.\Release\AnimSet.obj
+.\Release\Mesh.obj
+.\Release\ModelInstance.obj
+.\Release\RMRender.obj
+.\Release\RMRenderMask.obj
+.\Release\Skeleton.obj
+.\Release\StringTable.obj
+.\Release\SoundData.obj
+.\Release\SoundDecoder.obj
+.\Release\SoundLibrary.obj
+.\Release\SoundMixer.obj
+.\Release\SoundObject.obj
+.\Release\SoundProfile.obj
+.\Release\Wave.obj
+.\Release\BSP.obj
+.\Release\NameTable_CTFileName.obj
+.\Release\NameTable_CTranslationPair.obj
+.\Release\Stock_CAnimData.obj
+.\Release\Stock_CAnimSet.obj
+.\Release\Stock_CEntityClass.obj
+.\Release\Stock_CMesh.obj
+.\Release\Stock_CModelData.obj
+.\Release\Stock_CShader.obj
+.\Release\Stock_CSkeleton.obj
+.\Release\Stock_CSoundData.obj
+.\Release\Stock_CTextureData.obj
+.\Release\ArrayHolder.obj
+.\Release\Terrain.obj
+.\Release\TerrainArchive.obj
+.\Release\TerrainEditing.obj
+.\Release\TerrainLayer.obj
+.\Release\TerrainMisc.obj
+.\Release\TerrainRayCasting.obj
+.\Release\TerrainRender.obj
+.\Release\TerrainTile.obj
+.\Release\PhysicsProfile.obj
+.\Release\World.obj
+.\Release\WorldCollision.obj
+.\Release\WorldCollisionGrid.obj
+.\Release\WorldCSG.obj
+.\Release\WorldEditingProfile.obj
+.\Release\WorldIO.obj
+.\Release\WorldRayCasting.obj
+.\Release\Engine.obj
+.\Release\StdH.obj
+.\Release\BaseEvents.obj
+.\Release\MovableBrushEntity.obj
+.\Release\MovableEntity.obj
+.\Release\MovableModelEntity.obj
+.\Release\Parser.obj
+.\Release\PlayerEntity.obj
+.\Release\Scanner.obj
+.\Release\smcPars.obj
+.\Release\smcScan.obj
+.\Release\adler32.obj
+.\Release\compress.obj
+.\Release\deflate.obj
+.\Release\infblock.obj
+.\Release\infcodes.obj
+.\Release\inffast.obj
+.\Release\inflate.obj
+.\Release\inftrees.obj
+.\Release\infutil.obj
+.\Release\trees.obj
+.\Release\uncompr.obj
+.\Release\zutil.obj
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPF76A.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF76B.bat" with contents
+[
+@echo off
+copy Release\Engine.dll C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\Engine.map C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\Engine.lib C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF76B.bat"
+Compiling...
+StdH.cpp
+Compiling...
+Anim.cpp
+Changeable.cpp
+Console.cpp
+CRC.cpp
+CRCTable.cpp
+CTString.cpp
+Directory.cpp
+ErrorReporting.cpp
+FileName.cpp
+IFeel.cpp
+Input.cpp
+Lists.cpp
+Memory.cpp
+Profiling.cpp
+ProgressHook.cpp
+Protection.cpp
+Registry.cpp
+Relations.cpp
+ReplaceFile.cpp
+Serial.cpp
+Generating Code...
+Compiling...
+Shell.cpp
+ShellTypes.cpp
+Statistics.cpp
+Stream.cpp
+Synchronization.cpp
+Timer.cpp
+Translation.cpp
+Unzip.cpp
+Updateable.cpp
+Brush.cpp
+BrushArchive.cpp
+BrushExport.cpp
+BrushImport.cpp
+BrushIO.cpp
+BrushMip.cpp
+BrushPolygon.cpp
+BrushSector.cpp
+BrushShadows.cpp
+BrushTriangularize.cpp
+Entity.cpp
+Generating Code...
+Compiling...
+EntityClass.cpp
+EntityCollision.cpp
+EntityCopying.cpp
+EntityProperties.cpp
+>> CEntity::Copy
+FieldBSPTesting.cpp
+LastPositions.cpp
+NearestPolygon.cpp
+PlayerCharacter.cpp
+GameAgent.cpp
+Adapter.cpp
+>> Uncomment include to terrain.h
+Benchmark.cpp
+Color.cpp
+DepthCheck.cpp
+DisplayMode.cpp
+DrawPort.cpp
+DrawPort_Particles.cpp
+DrawPort_RenderScene.cpp
+Fog.cpp
+Font.cpp
+Gfx_Direct3D.cpp
+Generating Code...
+Compiling...
+Gfx_Direct3D_Colors.cpp
+Gfx_Direct3D_Textures.cpp
+Gfx_OpenGL.cpp
+Gfx_OpenGL_Textures.cpp
+Gfx_wrapper.cpp
+GfxLibrary.cpp
+GfxProfile.cpp
+>> doublecheck me!!!
+Graphics.cpp
+ImageInfo.cpp
+MultiMonitor.cpp
+Raster.cpp
+Shader.cpp
+ShadowMap.cpp
+Stereo.cpp
+Texture.cpp
+TextureEffects.cpp
+TextureRender.cpp
+ViewPort.cpp
+LayerMaker.cpp
+LayerMixer.cpp
+Generating Code...
+Compiling...
+LightSource.cpp
+Float.cpp
+Functions.cpp
+Geometry.cpp
+Geometry_DOUBLE.cpp
+Object3D.cpp
+Object3D_CSG.cpp
+Object3D_IO.cpp
+ObjectSector.cpp
+Placement.cpp
+Projection.cpp
+Projection_Isometric.cpp
+Projection_Parallel.cpp
+Projection_Perspective.cpp
+Projection_Simple.cpp
+Projection_Simple_DOUBLE.cpp
+TextureMapping.cpp
+EditModel.cpp
+MipMaker.cpp
+Model.cpp
+Generating Code...
+Compiling...
+ModelProfile.cpp
+Normals.cpp
+RenderModel.cpp
+RenderModel_Mask.cpp
+RenderModel_View.cpp
+VertexGetting.cpp
+ActionBuffer.cpp
+Buffer.cpp
+ClientInterface.cpp
+CommunicationInterface.cpp
+Compression.cpp
+CPacket.cpp
+Diff.cpp
+MessageDispatcher.cpp
+Network.cpp
+NetworkMessage.cpp
+NetworkProfile.cpp
+PlayerBuffer.cpp
+PlayerSource.cpp
+PlayerTarget.cpp
+Generating Code...
+Compiling...
+Server.cpp
+SessionState.cpp
+Render.cpp
+RenderProfile.cpp
+>> Is terrain visible
+SelectOnRender.cpp
+AnimSet.cpp
+Mesh.cpp
+ModelInstance.cpp
+RMRender.cpp
+>> IsModelVisible
+>> HasShadow
+RMRenderMask.cpp
+>> Fix this
+>> Check if this is ok
+>> FIX THIS !!!
+>> Fix face forward meshes, when objects are left in object space
+>> Add ska_bShowActiveBones
+Skeleton.cpp
+StringTable.cpp
+SoundData.cpp
+SoundDecoder.cpp
+SoundLibrary.cpp
+SoundMixer.cpp
+SoundObject.cpp
+SoundProfile.cpp
+Wave.cpp
+BSP.cpp
+Generating Code...
+Compiling...
+NameTable_CTFileName.cpp
+NameTable_CTranslationPair.cpp
+Stock_CAnimData.cpp
+Stock_CAnimSet.cpp
+Stock_CEntityClass.cpp
+Stock_CMesh.cpp
+Stock_CModelData.cpp
+Stock_CShader.cpp
+Stock_CSkeleton.cpp
+Stock_CSoundData.cpp
+Stock_CTextureData.cpp
+ArrayHolder.cpp
+Terrain.cpp
+TerrainArchive.cpp
+>> Clamp dn SetShadowMapsSize
+>> Fix DitherMipmaps
+TerrainEditing.cpp
+TerrainLayer.cpp
+TerrainMisc.cpp
+TerrainRayCasting.cpp
+>> Create class with destructor to clear shared topmap memory
+>> Remove Rect from ExtractPolygonsInBox
+TerrainRender.cpp
+>> Remove defined NUMDIM, RIGHT, LEFT ...
+TerrainTile.cpp
+>> Fix this
+>> no asm in GetHazeMapInVertex and GetFogMapInVertex
+Generating Code...
+Compiling...
+PhysicsProfile.cpp
+World.cpp
+WorldCollision.cpp
+WorldCollisionGrid.cpp
+WorldCSG.cpp
+WorldEditingProfile.cpp
+WorldIO.cpp
+WorldRayCasting.cpp
+Engine.cpp
+BaseEvents.cpp
+>> Remove this from SE_InitEngine : _bWorldEditorApp
+MovableBrushEntity.cpp
+MovableEntity.cpp
+MovableModelEntity.cpp
+Parser.cpp
+PlayerEntity.cpp
+Scanner.cpp
+smcPars.cpp
+smcScan.cpp
+Generating Code...
+Linking...
+   Creating library Release/Engine.lib and object Release/Engine.exp
+<h3>Output Window</h3>
+Copying Engine binaries to C:\SAM_v110\Src110_X42\Bin
+<h3>
+--------------------Configuration: EntitiesMP - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP9D03.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/EntitiesMP.pdb" /map:"Release/EntitiesMP.map" /debug /machine:I386 /out:"Release/EntitiesMP.dll" /implib:"Release/EntitiesMP.lib" /pdbtype:sept /libpath:"C:\SAM_v110\Src110_X42\Bin" /libpath:"C:\SAM_v110\Src110_X42\Bin\Debug" /libpath:"C:\SAM_v110\Src110_X42\Lib" 
+.\Release\Common.obj
+.\Release\EmanatingParticles.obj
+.\Release\HUD.obj
+.\Release\Particles.obj
+.\Release\PathFinding.obj
+.\Release\StdH.obj
+.\Release\AirElemental.obj
+.\Release\AmmoItem.obj
+.\Release\AmmoPack.obj
+.\Release\AnimationChanger.obj
+.\Release\AnimationHub.obj
+.\Release\AreaMarker.obj
+.\Release\ArmorItem.obj
+.\Release\BackgroundViewer.obj
+.\Release\BasicEffects.obj
+.\Release\Beast.obj
+.\Release\BigHead.obj
+.\Release\BlendController.obj
+.\Release\BloodSpray.obj
+.\Release\Boneman.obj
+.\Release\Bouncer.obj
+.\Release\Bullet.obj
+.\Release\Camera.obj
+.\Release\CameraMarker.obj
+.\Release\CannonBall.obj
+.\Release\CannonRotating.obj
+.\Release\CannonStatic.obj
+.\Release\ChainsawFreak.obj
+.\Release\Copier.obj
+.\Release\Counter.obj
+.\Release\CrateBus.obj
+.\Release\CrateRider.obj
+.\Release\CreditsHolder.obj
+.\Release\Damager.obj
+.\Release\Debris.obj
+.\Release\DebugEntityStatesDisplay.obj
+.\Release\Demon.obj
+.\Release\DestroyableArchitecture.obj
+.\Release\Devil.obj
+.\Release\DevilMarker.obj
+.\Release\DevilProjectile.obj
+.\Release\DoorController.obj
+.\Release\EffectMarker.obj
+.\Release\Effector.obj
+.\Release\Elemental.obj
+.\Release\EnemyBase.obj
+.\Release\EnemyCounter.obj
+.\Release\EnemyDive.obj
+.\Release\EnemyFly.obj
+.\Release\EnemyMarker.obj
+.\Release\EnemyRunInto.obj
+.\Release\EnemySpawner.obj
+.\Release\EnvironmentBase.obj
+.\Release\EnvironmentMarker.obj
+.\Release\EnvironmentParticlesHolder.obj
+.\Release\Eruptor.obj
+.\Release\ExotechLarva.obj
+.\Release\ExotechLarvaBattery.obj
+.\Release\ExotechLarvaCharger.obj
+.\Release\Eyeman.obj
+.\Release\Fireworks.obj
+.\Release\Fish.obj
+.\Release\Flame.obj
+.\Release\FogMarker.obj
+.\Release\Gizmo.obj
+.\Release\Global.obj
+.\Release\GradientMarker.obj
+.\Release\GravityMarker.obj
+.\Release\GravityRouter.obj
+.\Release\Grunt.obj
+.\Release\GruntSka.obj
+.\Release\Guffy.obj
+.\Release\HazeMarker.obj
+.\Release\Headman.obj
+.\Release\HealthItem.obj
+.\Release\HudPicHolder.obj
+.\Release\Item.obj
+.\Release\KeyItem.obj
+.\Release\LarvaOffspring.obj
+.\Release\Light.obj
+.\Release\Lightning.obj
+.\Release\Marker.obj
+.\Release\MessageHolder.obj
+.\Release\MessageItem.obj
+.\Release\MeteorShower.obj
+.\Release\MirrorMarker.obj
+.\Release\ModelDestruction.obj
+.\Release\ModelHolder.obj
+.\Release\ModelHolder2.obj
+.\Release\ModelHolder3.obj
+.\Release\MovingBrush.obj
+.\Release\MovingBrushMarker.obj
+.\Release\MusicChanger.obj
+.\Release\MusicHolder.obj
+.\Release\NavigationMarker.obj
+.\Release\ParticlesHolder.obj
+.\Release\Pendulum.obj
+.\Release\PhotoAlbum.obj
+.\Release\Player.obj
+.\Release\PlayerActionMarker.obj
+.\Release\PlayerAnimator.obj
+.\Release\PlayerMarker.obj
+.\Release\PlayerView.obj
+.\Release\PlayerWeapons.obj
+.\Release\PlayerWeaponsEffects.obj
+.\Release\PowerUpItem.obj
+.\Release\Projectile.obj
+.\Release\PyramidSpaceShip.obj
+.\Release\PyramidSpaceShipMarker.obj
+.\Release\Reminder.obj
+.\Release\RollingStone.obj
+.\Release\Santa.obj
+.\Release\Scorpman.obj
+.\Release\ScrollHolder.obj
+.\Release\SeriousBomb.obj
+.\Release\Ship.obj
+.\Release\ShipMarker.obj
+.\Release\Shooter.obj
+.\Release\SoundHolder.obj
+.\Release\SpawnerProjectile.obj
+.\Release\Spinner.obj
+.\Release\StormController.obj
+.\Release\Summoner.obj
+.\Release\SummonerMarker.obj
+.\Release\Switch.obj
+.\Release\TacticsChanger.obj
+.\Release\TacticsHolder.obj
+.\Release\Teleport.obj
+.\Release\TextFXHolder.obj
+.\Release\TimeController.obj
+.\Release\TouchField.obj
+.\Release\Trigger.obj
+.\Release\Twister.obj
+.\Release\VoiceHolder.obj
+.\Release\Walker.obj
+.\Release\Watcher.obj
+.\Release\WatchPlayers.obj
+.\Release\Water.obj
+.\Release\WeaponItem.obj
+.\Release\Werebull.obj
+.\Release\Woman.obj
+.\Release\WorldBase.obj
+.\Release\WorldLink.obj
+.\Release\WorldSettingsController.obj
+\SAM_v110\Src110_X42\Engine\Release\Engine.lib
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP9D03.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP9D04.bat" with contents
+[
+@echo off
+copy Release\EntitiesMP.dll C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\EntitiesMP.map C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\EntitiesMP.lib C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP9D04.bat"
+Linking...
+   Creating library Release/EntitiesMP.lib and object Release/EntitiesMP.exp
+<h3>Output Window</h3>
+Copying EntitiesMP binaries to C:\SAM_v110\Src110_X42\Bin
+
+
+
+<h3>Results</h3>
+EntitiesMP.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

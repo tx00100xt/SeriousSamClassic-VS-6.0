@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RCon - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/RCon.res" /d "NDEBUG" /d "_AFXDLL" "C:\SAM_v110\Src110_X42\RCon\RCon.rc"" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP54D8.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /I "C:\SAM_v110\Src110_X42\Include" /I "C:\SAM_v110\Src110_X42" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Release/RCon.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\RCon\RCon.cpp"
+"C:\SAM_v110\Src110_X42\RCon\RConDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP54D8.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP54D9.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /I "C:\SAM_v110\Src110_X42\Include" /I "C:\SAM_v110\Src110_X42" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Release/RCon.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\RCon\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP54D9.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP54DA.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/RCon.pdb" /map:"Release/RCon.map" /debug /machine:I386 /out:"Release/RCon.exe" /libpath:"C:\SAM_v110\Src110_X42\Bin" /libpath:"C:\SAM_v110\Src110_X42\Bin\Debug" /libpath:"C:\SAM_v110\Src110_X42\Lib" 
+.\Release\RCon.obj
+.\Release\RConDlg.obj
+.\Release\StdAfx.obj
+.\Release\RCon.res
+\SAM_v110\Src110_X42\Engine\Release\Engine.lib
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP54DA.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP54DB.bat" with contents
+[
+@echo off
+copy Release\RCon.exe C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP54DB.bat"
+Compiling resources...
+Compiling...
+StdAfx.cpp
+>> Uncomment include to terrain.h
+Compiling...
+RCon.cpp
+RConDlg.cpp
+Generating Code...
+Linking...
+<h3>Output Window</h3>
+Copying RCon binaries to C:\SAM_v110\Src110_X42\Bin
+
+
+
+<h3>Results</h3>
+RCon.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

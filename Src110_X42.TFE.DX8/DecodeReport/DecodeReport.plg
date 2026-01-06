@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DecodeReport - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPFE14.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /I "C:\SAM_v110\Src110_X42\Include" /I "C:\SAM_v110\Src110_X42" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /D "_AFXDLL" /Fp"Release/DecodeReport.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\DecodeReport\DecodeReport.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPFE14.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPFE15.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /I "C:\SAM_v110\Src110_X42\Include" /I "C:\SAM_v110\Src110_X42" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /D "_AFXDLL" /Fp"Release/DecodeReport.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\DecodeReport\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPFE15.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPFE16.tmp" with contents
+[
+/nologo /subsystem:console /incremental:no /pdb:"Release/DecodeReport.pdb" /machine:I386 /out:"Release/DecodeReport.exe" /libpath:"C:\SAM_v110\Src110_X42\Bin" /libpath:"C:\SAM_v110\Src110_X42\Bin\Debug" /libpath:"C:\SAM_v110\Src110_X42\Lib" 
+.\Release\DecodeReport.obj
+.\Release\StdAfx.obj
+\SAM_v110\Src110_X42\Engine\Release\Engine.lib
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPFE16.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPFE17.bat" with contents
+[
+@echo off
+copy Release\DecodeReport.exe C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPFE17.bat"
+Compiling...
+StdAfx.cpp
+>> Uncomment include to terrain.h
+Compiling...
+DecodeReport.cpp
+Linking...
+<h3>Output Window</h3>
+Copying DecodeReport binaries to C:\SAM_v110\Src110_X42\Bin
+
+
+
+<h3>Results</h3>
+DecodeReport.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

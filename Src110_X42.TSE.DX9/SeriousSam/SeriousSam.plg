@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SeriousSam - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPEF96.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "C:\SAM_v110\Src110_X42\Include" /I "C:\SAM_v110\Src110_X42" /D "SE1_D3D" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/SeriousSam.pch" /Yu"StdH.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\SeriousSam\Menu.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPEF96.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPEF97.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/SeriousSam.pdb" /machine:I386 /out:"Release/SeriousSam.exe" /libpath:"C:\SAM_v110\Src110_X42\Bin" /libpath:"C:\SAM_v110\Src110_X42\Bin\Debug" /libpath:"C:\SAM_v110\Src110_X42\Lib" 
+.\Release\CmdLine.obj
+.\Release\Credits.obj
+.\Release\GLSettings.obj
+.\Release\LCDDrawing.obj
+.\Release\LevelInfo.obj
+.\Release\MainWindow.obj
+.\Release\Menu.obj
+.\Release\MenuGadgets.obj
+.\Release\MenuPrinting.obj
+.\Release\SeriousSam.obj
+.\Release\SplashScreen.obj
+.\Release\StdH.obj
+.\Release\VarList.obj
+.\Release\SeriousSam.res
+\SAM_v110\Src110_X42\Engine\Release\Engine.lib
+\SAM_v110\Src110_X42\EntitiesMP\Release\EntitiesMP.lib
+\SAM_v110\Src110_X42\GameMP\Release\GameMP.lib
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPEF97.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPEF98.bat" with contents
+[
+@echo off
+copy Release\SeriousSam.exe C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPEF98.bat"
+Compiling...
+Menu.cpp
+Linking...
+<h3>Output Window</h3>
+Copying SeriousSam binaries to C:\SAM_v110\Src110_X42\Bin
+
+
+
+<h3>Results</h3>
+SeriousSam.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

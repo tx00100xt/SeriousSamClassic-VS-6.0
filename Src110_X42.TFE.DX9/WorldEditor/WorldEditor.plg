@@ -1,0 +1,2931 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Ecc - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP1DE2.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /I "C:\SAM_v110\Src110_X42" /I "C:\SAM_v110\Src110_X42\Include" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/Ecc.pch" /Yu"StdH.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\Ecc\Main.cpp"
+"C:\SAM_v110\Src110_X42\Ecc\Parser.cpp"
+"C:\SAM_v110\Src110_X42\Ecc\Scanner.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP1DE2.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP1DE3.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /I "C:\SAM_v110\Src110_X42" /I "C:\SAM_v110\Src110_X42\Include" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/Ecc.pch" /Yc"StdH.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\Ecc\StdH.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP1DE3.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP1DE4.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/Ecc.pdb" /machine:I386 /out:"Release/Ecc.exe" /libpath:"C:\SAM_v110\Src110_X42\Bin" /libpath:"C:\SAM_v110\Src110_X42\Bin\Debug" /libpath:"C:\SAM_v110\Src110_X42\Lib" 
+.\Release\Main.obj
+.\Release\Parser.obj
+.\Release\Scanner.obj
+.\Release\StdH.obj
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP1DE4.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP1DE5.bat" with contents
+[
+@echo off
+copy Release\Ecc.exe C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP1DE5.bat"
+Compiling...
+StdH.cpp
+Compiling...
+Main.cpp
+Parser.cpp
+Scanner.cpp
+Generating Code...
+Linking...
+<h3>Output Window</h3>
+Copying Ecc binaries to C:\SAM_v110\Src110_X42\Bin
+<h3>
+--------------------Configuration: Engine - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP2596.bat" with contents
+[
+@echo off
+cd
+cl /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/Engine.pch" /Fo"Release/" /Fd"Release/" /FD /c .\zlib\zutil.c
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP2596.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP2597.bat" with contents
+[
+@echo off
+cd
+cl /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/Engine.pch" /Fo"Release/" /Fd"Release/" /FD /c .\zlib\uncompr.c
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP2597.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP2598.bat" with contents
+[
+@echo off
+cd
+cl /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/Engine.pch" /Fo"Release/" /Fd"Release/" /FD /c .\zlib\trees.c
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP2598.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP2599.bat" with contents
+[
+@echo off
+cd
+cl /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/Engine.pch" /Fo"Release/" /Fd"Release/" /FD /c .\zlib\infutil.c
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP2599.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP259A.bat" with contents
+[
+@echo off
+cd
+cl /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/Engine.pch" /Fo"Release/" /Fd"Release/" /FD /c .\zlib\inftrees.c
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP259A.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP25AB.bat" with contents
+[
+@echo off
+cd
+cl /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/Engine.pch" /Fo"Release/" /Fd"Release/" /FD /c .\zlib\inflate.c
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP25AB.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP25AC.bat" with contents
+[
+@echo off
+cd
+cl /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/Engine.pch" /Fo"Release/" /Fd"Release/" /FD /c .\zlib\inffast.c
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP25AC.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP25AD.bat" with contents
+[
+@echo off
+cd
+cl /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/Engine.pch" /Fo"Release/" /Fd"Release/" /FD /c .\zlib\infcodes.c
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP25AD.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP25AE.bat" with contents
+[
+@echo off
+cd
+cl /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/Engine.pch" /Fo"Release/" /Fd"Release/" /FD /c .\zlib\infblock.c
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP25AE.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP25AF.bat" with contents
+[
+@echo off
+cd
+cl /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/Engine.pch" /Fo"Release/" /Fd"Release/" /FD /c .\zlib\deflate.c
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP25AF.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP25B0.bat" with contents
+[
+@echo off
+cd
+cl /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/Engine.pch" /Fo"Release/" /Fd"Release/" /FD /c .\zlib\compress.c
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP25B0.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP25B1.bat" with contents
+[
+@echo off
+cd
+cl /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/Engine.pch" /Fo"Release/" /Fd"Release/" /FD /c .\zlib\adler32.c
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP25B1.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP25B2.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /I "C:\SAM_v110\Src110_X42\Include" /I "C:\SAM_v110\Src110_X42" /D "FIRST_ENCOUNTER" /D "SE1_D3D" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/Engine.pch" /Yu"StdH.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\Engine\Base\Anim.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Changeable.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Console.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\CRC.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\CRCTable.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\CTString.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Directory.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\ErrorReporting.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\FileName.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\IFeel.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Input.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Lists.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Memory.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Profiling.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\ProgressHook.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Protection.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Registry.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Relations.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\ReplaceFile.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Serial.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Shell.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\ShellTypes.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Statistics.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Stream.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Synchronization.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Timer.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Translation.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Unzip.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Updateable.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Brushes\Brush.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Brushes\BrushArchive.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Brushes\BrushExport.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Brushes\BrushImport.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Brushes\BrushIO.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Brushes\BrushMip.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Brushes\BrushPolygon.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Brushes\BrushSector.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Brushes\BrushShadows.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Brushes\BrushTriangularize.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Entities\Entity.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Entities\EntityClass.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Entities\EntityCollision.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Entities\EntityCopying.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Entities\EntityProperties.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Entities\FieldBSPTesting.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Entities\LastPositions.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Entities\NearestPolygon.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Entities\PlayerCharacter.cpp"
+"C:\SAM_v110\Src110_X42\Engine\GameAgent\GameAgent.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Adapter.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Benchmark.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Color.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\DepthCheck.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\DisplayMode.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\DrawPort.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\DrawPort_Particles.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\DrawPort_RenderScene.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Fog.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Font.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Gfx_Direct3D.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Gfx_Direct3D_Colors.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Gfx_Direct3D_Textures.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Gfx_OpenGL.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Gfx_OpenGL_Textures.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Gfx_wrapper.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\GfxLibrary.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\GfxProfile.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Graphics.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\ImageInfo.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\MultiMonitor.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Raster.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Shader.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\ShadowMap.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Stereo.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\Texture.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\TextureEffects.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\TextureRender.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Graphics\ViewPort.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Light\LayerMaker.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Light\LayerMixer.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Light\LightSource.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\Float.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\Functions.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\Geometry.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\Geometry_DOUBLE.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\Object3D.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\Object3D_CSG.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\Object3D_IO.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\ObjectSector.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\Placement.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\Projection.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\Projection_Isometric.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\Projection_Parallel.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\Projection_Perspective.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\Projection_Simple.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\Projection_Simple_DOUBLE.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Math\TextureMapping.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Models\EditModel.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Models\MipMaker.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Models\Model.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Models\ModelProfile.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Models\Normals.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Models\RenderModel.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Models\RenderModel_Mask.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Models\RenderModel_View.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Models\VertexGetting.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\ActionBuffer.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\Buffer.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\ClientInterface.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\CommunicationInterface.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\Compression.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\CPacket.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\Diff.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\MessageDispatcher.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\Network.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\NetworkMessage.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\NetworkProfile.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\PlayerBuffer.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\PlayerSource.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\PlayerTarget.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\Server.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Network\SessionState.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Rendering\Render.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Rendering\RenderProfile.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Rendering\SelectOnRender.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Ska\AnimSet.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Ska\Mesh.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Ska\ModelInstance.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Ska\RMRender.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Ska\RMRenderMask.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Ska\Skeleton.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Ska\StringTable.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Sound\SoundData.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Sound\SoundDecoder.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Sound\SoundLibrary.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Sound\SoundMixer.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Sound\SoundObject.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Sound\SoundProfile.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Sound\Wave.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Templates\BSP.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Templates\NameTable_CTFileName.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Templates\NameTable_CTranslationPair.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Templates\Stock_CAnimData.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Templates\Stock_CAnimSet.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Templates\Stock_CEntityClass.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Templates\Stock_CMesh.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Templates\Stock_CModelData.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Templates\Stock_CShader.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Templates\Stock_CSkeleton.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Templates\Stock_CSoundData.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Templates\Stock_CTextureData.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Terrain\ArrayHolder.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Terrain\Terrain.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Terrain\TerrainArchive.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Terrain\TerrainEditing.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Terrain\TerrainLayer.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Terrain\TerrainMisc.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Terrain\TerrainRayCasting.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Terrain\TerrainRender.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Terrain\TerrainTile.cpp"
+"C:\SAM_v110\Src110_X42\Engine\World\PhysicsProfile.cpp"
+"C:\SAM_v110\Src110_X42\Engine\World\World.cpp"
+"C:\SAM_v110\Src110_X42\Engine\World\WorldCollision.cpp"
+"C:\SAM_v110\Src110_X42\Engine\World\WorldCollisionGrid.cpp"
+"C:\SAM_v110\Src110_X42\Engine\World\WorldCSG.cpp"
+"C:\SAM_v110\Src110_X42\Engine\World\WorldEditingProfile.cpp"
+"C:\SAM_v110\Src110_X42\Engine\World\WorldIO.cpp"
+"C:\SAM_v110\Src110_X42\Engine\World\WorldRayCasting.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Engine.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Classes\BaseEvents.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Classes\MovableBrushEntity.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Classes\MovableEntity.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Classes\MovableModelEntity.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Parser.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Classes\PlayerEntity.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Base\Scanner.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Ska\smcPars.cpp"
+"C:\SAM_v110\Src110_X42\Engine\Ska\smcScan.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP25B2.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP25B3.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /I "C:\SAM_v110\Src110_X42\Include" /I "C:\SAM_v110\Src110_X42" /D "FIRST_ENCOUNTER" /D "SE1_D3D" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "ENGINE_EXPORTS" /Fp"Release/Engine.pch" /Yc"StdH.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\Engine\StdH.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP25B3.tmp" 
+Performing Custom Build Step on .\zlib\zutil.c
+C:\SAM_v110\Src110_X42\Engine
+zutil.c
+Performing Custom Build Step on .\zlib\uncompr.c
+C:\SAM_v110\Src110_X42\Engine
+uncompr.c
+Performing Custom Build Step on .\zlib\trees.c
+C:\SAM_v110\Src110_X42\Engine
+trees.c
+Performing Custom Build Step on .\zlib\infutil.c
+C:\SAM_v110\Src110_X42\Engine
+infutil.c
+Performing Custom Build Step on .\zlib\inftrees.c
+C:\SAM_v110\Src110_X42\Engine
+inftrees.c
+Performing Custom Build Step on .\zlib\inflate.c
+C:\SAM_v110\Src110_X42\Engine
+inflate.c
+Performing Custom Build Step on .\zlib\inffast.c
+C:\SAM_v110\Src110_X42\Engine
+inffast.c
+Performing Custom Build Step on .\zlib\infcodes.c
+C:\SAM_v110\Src110_X42\Engine
+infcodes.c
+Performing Custom Build Step on .\zlib\infblock.c
+C:\SAM_v110\Src110_X42\Engine
+infblock.c
+Performing Custom Build Step on .\zlib\deflate.c
+C:\SAM_v110\Src110_X42\Engine
+deflate.c
+Performing Custom Build Step on .\zlib\compress.c
+C:\SAM_v110\Src110_X42\Engine
+compress.c
+Performing Custom Build Step on .\zlib\adler32.c
+C:\SAM_v110\Src110_X42\Engine
+adler32.c
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP2C5B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/Engine.pdb" /machine:I386 /out:"Release/Engine.dll" /implib:"Release/Engine.lib" /libpath:"C:\SAM_v110\Src110_X42\Bin" /libpath:"C:\SAM_v110\Src110_X42\Bin\Debug" /libpath:"C:\SAM_v110\Src110_X42\Lib" 
+.\Release\Anim.obj
+.\Release\Changeable.obj
+.\Release\Console.obj
+.\Release\CRC.obj
+.\Release\CRCTable.obj
+.\Release\CTString.obj
+.\Release\Directory.obj
+.\Release\ErrorReporting.obj
+.\Release\FileName.obj
+.\Release\IFeel.obj
+.\Release\Input.obj
+.\Release\Lists.obj
+.\Release\Memory.obj
+.\Release\Profiling.obj
+.\Release\ProgressHook.obj
+.\Release\Protection.obj
+.\Release\Registry.obj
+.\Release\Relations.obj
+.\Release\ReplaceFile.obj
+.\Release\Serial.obj
+.\Release\Shell.obj
+.\Release\ShellTypes.obj
+.\Release\Statistics.obj
+.\Release\Stream.obj
+.\Release\Synchronization.obj
+.\Release\Timer.obj
+.\Release\Translation.obj
+.\Release\Unzip.obj
+.\Release\Updateable.obj
+.\Release\Brush.obj
+.\Release\BrushArchive.obj
+.\Release\BrushExport.obj
+.\Release\BrushImport.obj
+.\Release\BrushIO.obj
+.\Release\BrushMip.obj
+.\Release\BrushPolygon.obj
+.\Release\BrushSector.obj
+.\Release\BrushShadows.obj
+.\Release\BrushTriangularize.obj
+.\Release\Entity.obj
+.\Release\EntityClass.obj
+.\Release\EntityCollision.obj
+.\Release\EntityCopying.obj
+.\Release\EntityProperties.obj
+.\Release\FieldBSPTesting.obj
+.\Release\LastPositions.obj
+.\Release\NearestPolygon.obj
+.\Release\PlayerCharacter.obj
+.\Release\GameAgent.obj
+.\Release\Adapter.obj
+.\Release\Benchmark.obj
+.\Release\Color.obj
+.\Release\DepthCheck.obj
+.\Release\DisplayMode.obj
+.\Release\DrawPort.obj
+.\Release\DrawPort_Particles.obj
+.\Release\DrawPort_RenderScene.obj
+.\Release\Fog.obj
+.\Release\Font.obj
+.\Release\Gfx_Direct3D.obj
+.\Release\Gfx_Direct3D_Colors.obj
+.\Release\Gfx_Direct3D_Textures.obj
+.\Release\Gfx_OpenGL.obj
+.\Release\Gfx_OpenGL_Textures.obj
+.\Release\Gfx_wrapper.obj
+.\Release\GfxLibrary.obj
+.\Release\GfxProfile.obj
+.\Release\Graphics.obj
+.\Release\ImageInfo.obj
+.\Release\MultiMonitor.obj
+.\Release\Raster.obj
+.\Release\Shader.obj
+.\Release\ShadowMap.obj
+.\Release\Stereo.obj
+.\Release\Texture.obj
+.\Release\TextureEffects.obj
+.\Release\TextureRender.obj
+.\Release\ViewPort.obj
+.\Release\LayerMaker.obj
+.\Release\LayerMixer.obj
+.\Release\LightSource.obj
+.\Release\Float.obj
+.\Release\Functions.obj
+.\Release\Geometry.obj
+.\Release\Geometry_DOUBLE.obj
+.\Release\Object3D.obj
+.\Release\Object3D_CSG.obj
+.\Release\Object3D_IO.obj
+.\Release\ObjectSector.obj
+.\Release\Placement.obj
+.\Release\Projection.obj
+.\Release\Projection_Isometric.obj
+.\Release\Projection_Parallel.obj
+.\Release\Projection_Perspective.obj
+.\Release\Projection_Simple.obj
+.\Release\Projection_Simple_DOUBLE.obj
+.\Release\TextureMapping.obj
+.\Release\EditModel.obj
+.\Release\MipMaker.obj
+.\Release\Model.obj
+.\Release\ModelProfile.obj
+.\Release\Normals.obj
+.\Release\RenderModel.obj
+.\Release\RenderModel_Mask.obj
+.\Release\RenderModel_View.obj
+.\Release\VertexGetting.obj
+.\Release\ActionBuffer.obj
+.\Release\Buffer.obj
+.\Release\ClientInterface.obj
+.\Release\CommunicationInterface.obj
+.\Release\Compression.obj
+.\Release\CPacket.obj
+.\Release\Diff.obj
+.\Release\MessageDispatcher.obj
+.\Release\Network.obj
+.\Release\NetworkMessage.obj
+.\Release\NetworkProfile.obj
+.\Release\PlayerBuffer.obj
+.\Release\PlayerSource.obj
+.\Release\PlayerTarget.obj
+.\Release\Server.obj
+.\Release\SessionState.obj
+.\Release\Render.obj
+.\Release\RenderProfile.obj
+.\Release\SelectOnRender.obj
+.\Release\AnimSet.obj
+.\Release\Mesh.obj
+.\Release\ModelInstance.obj
+.\Release\RMRender.obj
+.\Release\RMRenderMask.obj
+.\Release\Skeleton.obj
+.\Release\StringTable.obj
+.\Release\SoundData.obj
+.\Release\SoundDecoder.obj
+.\Release\SoundLibrary.obj
+.\Release\SoundMixer.obj
+.\Release\SoundObject.obj
+.\Release\SoundProfile.obj
+.\Release\Wave.obj
+.\Release\BSP.obj
+.\Release\NameTable_CTFileName.obj
+.\Release\NameTable_CTranslationPair.obj
+.\Release\Stock_CAnimData.obj
+.\Release\Stock_CAnimSet.obj
+.\Release\Stock_CEntityClass.obj
+.\Release\Stock_CMesh.obj
+.\Release\Stock_CModelData.obj
+.\Release\Stock_CShader.obj
+.\Release\Stock_CSkeleton.obj
+.\Release\Stock_CSoundData.obj
+.\Release\Stock_CTextureData.obj
+.\Release\ArrayHolder.obj
+.\Release\Terrain.obj
+.\Release\TerrainArchive.obj
+.\Release\TerrainEditing.obj
+.\Release\TerrainLayer.obj
+.\Release\TerrainMisc.obj
+.\Release\TerrainRayCasting.obj
+.\Release\TerrainRender.obj
+.\Release\TerrainTile.obj
+.\Release\PhysicsProfile.obj
+.\Release\World.obj
+.\Release\WorldCollision.obj
+.\Release\WorldCollisionGrid.obj
+.\Release\WorldCSG.obj
+.\Release\WorldEditingProfile.obj
+.\Release\WorldIO.obj
+.\Release\WorldRayCasting.obj
+.\Release\Engine.obj
+.\Release\StdH.obj
+.\Release\BaseEvents.obj
+.\Release\MovableBrushEntity.obj
+.\Release\MovableEntity.obj
+.\Release\MovableModelEntity.obj
+.\Release\Parser.obj
+.\Release\PlayerEntity.obj
+.\Release\Scanner.obj
+.\Release\smcPars.obj
+.\Release\smcScan.obj
+.\Release\adler32.obj
+.\Release\compress.obj
+.\Release\deflate.obj
+.\Release\infblock.obj
+.\Release\infcodes.obj
+.\Release\inffast.obj
+.\Release\inflate.obj
+.\Release\inftrees.obj
+.\Release\infutil.obj
+.\Release\trees.obj
+.\Release\uncompr.obj
+.\Release\zutil.obj
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP2C5B.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP2C5C.bat" with contents
+[
+@echo off
+copy Release\Engine.dll C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\Engine.map C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\Engine.lib C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP2C5C.bat"
+Compiling...
+StdH.cpp
+Compiling...
+Anim.cpp
+Changeable.cpp
+Console.cpp
+CRC.cpp
+CRCTable.cpp
+CTString.cpp
+Directory.cpp
+ErrorReporting.cpp
+FileName.cpp
+IFeel.cpp
+Input.cpp
+Lists.cpp
+Memory.cpp
+Profiling.cpp
+ProgressHook.cpp
+Protection.cpp
+Registry.cpp
+Relations.cpp
+ReplaceFile.cpp
+Serial.cpp
+Generating Code...
+Compiling...
+Shell.cpp
+ShellTypes.cpp
+Statistics.cpp
+Stream.cpp
+Synchronization.cpp
+Timer.cpp
+Translation.cpp
+Unzip.cpp
+Updateable.cpp
+Brush.cpp
+BrushArchive.cpp
+BrushExport.cpp
+BrushImport.cpp
+BrushIO.cpp
+BrushMip.cpp
+BrushPolygon.cpp
+BrushSector.cpp
+BrushShadows.cpp
+BrushTriangularize.cpp
+Entity.cpp
+Generating Code...
+Compiling...
+EntityClass.cpp
+EntityCollision.cpp
+EntityCopying.cpp
+EntityProperties.cpp
+>> CEntity::Copy
+FieldBSPTesting.cpp
+LastPositions.cpp
+NearestPolygon.cpp
+PlayerCharacter.cpp
+GameAgent.cpp
+Adapter.cpp
+>> Uncomment include to terrain.h
+Benchmark.cpp
+Color.cpp
+DepthCheck.cpp
+DisplayMode.cpp
+DrawPort.cpp
+DrawPort_Particles.cpp
+DrawPort_RenderScene.cpp
+Fog.cpp
+Font.cpp
+Gfx_Direct3D.cpp
+C:\SAM_v110\Src110_X42\Engine\Graphics\Gfx_Direct3D.cpp(197) : warning C4005: 'VTXSIZE' : macro redefinition
+        C:\SAM_v110\Src110_X42\Engine\Graphics\Gfx_Direct3D.cpp(110) : see previous definition of 'VTXSIZE'
+Generating Code...
+Compiling...
+Gfx_Direct3D_Colors.cpp
+Gfx_Direct3D_Textures.cpp
+Gfx_OpenGL.cpp
+Gfx_OpenGL_Textures.cpp
+Gfx_wrapper.cpp
+C:\SAM_v110\Src110_X42\Engine\Graphics\GFX_wrapper_Direct3D.cpp(619) : warning C4101: 'hr' : unreferenced local variable
+C:\SAM_v110\Src110_X42\Engine\Graphics\GFX_wrapper_Direct3D.cpp(653) : warning C4101: 'hr' : unreferenced local variable
+GfxLibrary.cpp
+GfxProfile.cpp
+>> doublecheck me!!!
+Graphics.cpp
+ImageInfo.cpp
+MultiMonitor.cpp
+Raster.cpp
+Shader.cpp
+ShadowMap.cpp
+Stereo.cpp
+Texture.cpp
+TextureEffects.cpp
+TextureRender.cpp
+ViewPort.cpp
+LayerMaker.cpp
+LayerMixer.cpp
+Generating Code...
+Compiling...
+LightSource.cpp
+Float.cpp
+Functions.cpp
+Geometry.cpp
+Geometry_DOUBLE.cpp
+Object3D.cpp
+Object3D_CSG.cpp
+Object3D_IO.cpp
+ObjectSector.cpp
+Placement.cpp
+Projection.cpp
+Projection_Isometric.cpp
+Projection_Parallel.cpp
+Projection_Perspective.cpp
+Projection_Simple.cpp
+Projection_Simple_DOUBLE.cpp
+TextureMapping.cpp
+EditModel.cpp
+MipMaker.cpp
+Model.cpp
+Generating Code...
+Compiling...
+ModelProfile.cpp
+Normals.cpp
+RenderModel.cpp
+RenderModel_Mask.cpp
+RenderModel_View.cpp
+VertexGetting.cpp
+ActionBuffer.cpp
+Buffer.cpp
+ClientInterface.cpp
+CommunicationInterface.cpp
+Compression.cpp
+CPacket.cpp
+Diff.cpp
+MessageDispatcher.cpp
+Network.cpp
+NetworkMessage.cpp
+NetworkProfile.cpp
+PlayerBuffer.cpp
+PlayerSource.cpp
+PlayerTarget.cpp
+Generating Code...
+Compiling...
+Server.cpp
+SessionState.cpp
+Render.cpp
+RenderProfile.cpp
+>> Is terrain visible
+SelectOnRender.cpp
+AnimSet.cpp
+Mesh.cpp
+ModelInstance.cpp
+RMRender.cpp
+>> IsModelVisible
+>> HasShadow
+RMRenderMask.cpp
+>> Fix this
+>> Check if this is ok
+>> FIX THIS !!!
+>> Fix face forward meshes, when objects are left in object space
+>> Add ska_bShowActiveBones
+Skeleton.cpp
+StringTable.cpp
+SoundData.cpp
+SoundDecoder.cpp
+SoundLibrary.cpp
+SoundMixer.cpp
+SoundObject.cpp
+SoundProfile.cpp
+Wave.cpp
+BSP.cpp
+Generating Code...
+Compiling...
+NameTable_CTFileName.cpp
+NameTable_CTranslationPair.cpp
+Stock_CAnimData.cpp
+Stock_CAnimSet.cpp
+Stock_CEntityClass.cpp
+Stock_CMesh.cpp
+Stock_CModelData.cpp
+Stock_CShader.cpp
+Stock_CSkeleton.cpp
+Stock_CSoundData.cpp
+Stock_CTextureData.cpp
+ArrayHolder.cpp
+Terrain.cpp
+TerrainArchive.cpp
+>> Clamp dn SetShadowMapsSize
+>> Fix DitherMipmaps
+TerrainEditing.cpp
+TerrainLayer.cpp
+TerrainMisc.cpp
+TerrainRayCasting.cpp
+>> Create class with destructor to clear shared topmap memory
+>> Remove Rect from ExtractPolygonsInBox
+TerrainRender.cpp
+>> Remove defined NUMDIM, RIGHT, LEFT ...
+TerrainTile.cpp
+>> Fix this
+>> no asm in GetHazeMapInVertex and GetFogMapInVertex
+Generating Code...
+Compiling...
+PhysicsProfile.cpp
+World.cpp
+WorldCollision.cpp
+WorldCollisionGrid.cpp
+WorldCSG.cpp
+WorldEditingProfile.cpp
+WorldIO.cpp
+WorldRayCasting.cpp
+Engine.cpp
+BaseEvents.cpp
+>> Remove this from SE_InitEngine : _bWorldEditorApp
+MovableBrushEntity.cpp
+MovableEntity.cpp
+MovableModelEntity.cpp
+Parser.cpp
+PlayerEntity.cpp
+Scanner.cpp
+smcPars.cpp
+smcScan.cpp
+Generating Code...
+Linking...
+   Creating library Release/Engine.lib and object Release/Engine.exp
+<h3>Output Window</h3>
+Copying Engine binaries to C:\SAM_v110\Src110_X42\Bin
+<h3>
+--------------------Configuration: EngineGUI - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/EngineGUI.res" /d "NDEBUG" /d "_AFXDLL" "C:\SAM_v110\Src110_X42\EngineGUI\EngineGUI.rc"" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPE4A1.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /I "C:\SAM_v110\Src110_X42" /I "C:\SAM_v110\Src110_X42\Include" /D "FIRST_ENCOUNTER" /D "SE1_D3D" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/EngineGUI.pch" /Yu"StdH.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\EngineGUI\DlgChooseTextureType.cpp"
+"C:\SAM_v110\Src110_X42\EngineGUI\DlgCreateAnimatedTexture.cpp"
+"C:\SAM_v110\Src110_X42\EngineGUI\DlgCreateEffectTexture.cpp"
+"C:\SAM_v110\Src110_X42\EngineGUI\DlgCreateNormalTexture.cpp"
+"C:\SAM_v110\Src110_X42\EngineGUI\DlgSelectMode.cpp"
+"C:\SAM_v110\Src110_X42\EngineGUI\EngineGUI.cpp"
+"C:\SAM_v110\Src110_X42\EngineGUI\FileRequester.cpp"
+"C:\SAM_v110\Src110_X42\EngineGUI\WndDisplayTexture.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPE4A1.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPE4A2.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /I "C:\SAM_v110\Src110_X42" /I "C:\SAM_v110\Src110_X42\Include" /D "FIRST_ENCOUNTER" /D "SE1_D3D" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/EngineGUI.pch" /Yc"StdH.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\EngineGUI\StdH.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPE4A2.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPE4A3.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/EngineGUI.pdb" /map:"Release/EngineGUI.map" /debug /machine:I386 /def:".\EngineGUI.def" /out:"Release/EngineGUI.dll" /implib:"Release/EngineGUI.lib" /libpath:"C:\SAM_v110\Src110_X42\Bin" /libpath:"C:\SAM_v110\Src110_X42\Bin\Debug" /libpath:"C:\SAM_v110\Src110_X42\Lib" 
+.\Release\DlgChooseTextureType.obj
+.\Release\DlgCreateAnimatedTexture.obj
+.\Release\DlgCreateEffectTexture.obj
+.\Release\DlgCreateNormalTexture.obj
+.\Release\DlgSelectMode.obj
+.\Release\EngineGUI.obj
+.\Release\FileRequester.obj
+.\Release\StdH.obj
+.\Release\WndDisplayTexture.obj
+.\Release\EngineGUI.res
+\SAM_v110\Src110_X42\Engine\Release\Engine.lib
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPE4A3.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPE4A4.bat" with contents
+[
+@echo off
+copy Release\EngineGUI.dll C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\EngineGUI.map C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\EngineGUI.lib C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPE4A4.bat"
+Compiling resources...
+Compiling...
+StdH.cpp
+>> Uncomment include to terrain.h
+Compiling...
+DlgChooseTextureType.cpp
+DlgCreateAnimatedTexture.cpp
+DlgCreateEffectTexture.cpp
+DlgCreateNormalTexture.cpp
+DlgSelectMode.cpp
+EngineGUI.cpp
+FileRequester.cpp
+WndDisplayTexture.cpp
+Generating Code...
+Linking...
+   Creating library Release/EngineGUI.lib and object Release/EngineGUI.exp
+<h3>Output Window</h3>
+Copying EngineGUI binaries to C:\SAM_v110\Src110_X42\Bin
+<h3>
+--------------------Configuration: Entities - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF176.bat" with contents
+[
+@echo off
+cd                                                                                                                          ..\
+ecc Entities/WorldSettingsController.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF176.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF177.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/WorldLink.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF177.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF178.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/WorldBase.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF178.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF179.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Woman.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF179.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF17A.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Werebull.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF17A.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF17B.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/WeaponItem.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF17B.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF17C.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Water.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF17C.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF17D.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/WatchPlayers.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF17D.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF17E.bat" with contents
+[
+@echo off
+cd                                                                                                                      ..\
+ecc Entities/Watcher.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF17E.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF17F.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Walker.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF17F.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF180.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/VoiceHolder.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF180.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF181.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Twister.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF181.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF182.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Trigger.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF182.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF183.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/TouchField.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF183.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF184.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Teleport.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF184.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF185.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Switch.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF185.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF186.bat" with contents
+[
+@echo off
+cd                                                                                                                          ..\
+ecc Entities/StormController.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF186.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF197.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/SoundHolder.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF197.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF198.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/ShipMarker.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF198.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF199.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Ship.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF199.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF19A.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Scorpman.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF19A.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF19B.bat" with contents
+[
+@echo off
+cd                                                                                                                      ..\
+ecc Entities/RollingStone.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF19B.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF19C.bat" with contents
+[
+@echo off
+cd                                                                                                                       ..\
+ecc Entities/Reminder.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF19C.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF19D.bat" with contents
+[
+@echo off
+cd                                                                                                                      ..\
+ecc Entities/PyramidSpaceShipMarker.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF19D.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF19E.bat" with contents
+[
+@echo off
+cd                                                                                                                      ..\
+ecc Entities/PyramidSpaceShip.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF19E.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF19F.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Projectile.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF19F.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1A0.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/PlayerWeaponsEffects.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1A0.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1A1.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/PlayerWeapons.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1A1.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1A2.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/PlayerView.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1A2.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1A3.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/PlayerMarker.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1A3.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1A4.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/PlayerAnimator.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1A4.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1A5.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/PlayerActionMarker.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1A5.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1A6.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Player.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1A6.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1A7.bat" with contents
+[
+@echo off
+cd                                                                                                                      ..\
+ecc Entities/Pendulum.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1A7.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1A8.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/ParticlesHolder.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1A8.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1A9.bat" with contents
+[
+@echo off
+cd                                                                                                                       ..\
+ecc Entities/NavigationMarker.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1A9.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1AA.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/MusicHolder.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1AA.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1AB.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/MusicChanger.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1AB.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1AC.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/MovingBrushMarker.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1AC.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1AD.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/MovingBrush.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1AD.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1BE.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/ModelHolder2.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1BE.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1BF.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/ModelHolder.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1BF.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1C0.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/ModelDestruction.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1C0.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1C1.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/MirrorMarker.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1C1.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1C2.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/MessageItem.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1C2.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1C3.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/MessageHolder.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1C3.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1C4.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Marker.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1C4.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1C5.bat" with contents
+[
+@echo off
+cd                                                                                                                        ..\
+ecc Entities/Lightning.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1C5.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1C6.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Light.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1C6.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1C7.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/KeyItem.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1C7.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1C8.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Item.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1C8.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1C9.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/HealthItem.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1C9.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1CA.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Headman.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1CA.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1DA.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/HazeMarker.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1DA.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1DB.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/GravityRouter.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1DB.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1DC.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/GravityMarker.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1DC.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1DD.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/GradientMarker.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1DD.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1DE.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Global.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1DE.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1DF.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Gizmo.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1DF.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1E0.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/FogMarker.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1E0.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1E1.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Flame.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1E1.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1E2.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Fish.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1E2.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1E3.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Eyeman.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1E3.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1E4.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Eruptor.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1E4.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1E5.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/EnvironmentMarker.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1E5.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1E6.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/EnvironmentBase.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1E6.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1E7.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/EnemySpawner.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1E7.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1E8.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/EnemyRunInto.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1E8.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1E9.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/EnemyMarker.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1E9.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1FA.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/EnemyFly.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1FA.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1FB.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/EnemyDive.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1FB.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1FC.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/EnemyCounter.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1FC.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1FD.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/EnemyBase.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1FD.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1FE.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Elemental.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1FE.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1FF.bat" with contents
+[
+@echo off
+cd                                                                                                                        ..\
+ecc Entities/Effector.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF1FF.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF200.bat" with contents
+[
+@echo off
+cd                                                                                                                        ..\
+ecc Entities/EffectMarker.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF200.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF201.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/DoorController.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF201.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF202.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/DevilProjectile.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF202.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF203.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/DevilMarker.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF203.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF204.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Devil.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF204.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF205.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/DestroyableArchitecture.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF205.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF206.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Debris.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF206.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF207.bat" with contents
+[
+@echo off
+cd                                                                                                                     ..\
+ecc Entities/Damager.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF207.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF208.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/CrateRider.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF208.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF209.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Counter.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF209.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF20A.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Copier.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF20A.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF20B.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/CannonBall.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF20B.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF21B.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/CameraMarker.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF21B.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF21C.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Camera.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF21C.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF21D.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Bullet.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF21D.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF21E.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Bouncer.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF21E.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF21F.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Boneman.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF21F.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF220.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/BloodSpray.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF220.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF221.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/BlendController.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF221.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF222.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/BigHead.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF222.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF223.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/Beast.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF223.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF224.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/BasicEffects.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF224.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF225.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/BackgroundViewer.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF225.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF226.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/ArmorItem.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF226.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF227.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/AnimationHub.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF227.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF228.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/AnimationChanger.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF228.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF229.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/AmmoPack.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF229.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF22A.bat" with contents
+[
+@echo off
+cd                                                                                                                    ..\
+ecc Entities/AmmoItem.es
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPF22A.bat"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF22B.tmp" with contents
+[
+/nologo /G5 /MD /W3 /GX /Zi /Ox /Ot /Og /Oi /Oy- /I "C:\SAM_v110\Src110_X42\Include" /I "C:\SAM_v110\Src110_X42" /D "SE1_D3D" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/Entities.pch" /Yu"StdH.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\Entities\Common\Common.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Common\HUD.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Common\Particles.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Common\PathFinding.cpp"
+"C:\SAM_v110\Src110_X42\Entities\AmmoItem.cpp"
+"C:\SAM_v110\Src110_X42\Entities\AmmoPack.cpp"
+"C:\SAM_v110\Src110_X42\Entities\AnimationChanger.cpp"
+"C:\SAM_v110\Src110_X42\Entities\AnimationHub.cpp"
+"C:\SAM_v110\Src110_X42\Entities\ArmorItem.cpp"
+"C:\SAM_v110\Src110_X42\Entities\BackgroundViewer.cpp"
+"C:\SAM_v110\Src110_X42\Entities\BasicEffects.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Beast.cpp"
+"C:\SAM_v110\Src110_X42\Entities\BigHead.cpp"
+"C:\SAM_v110\Src110_X42\Entities\BlendController.cpp"
+"C:\SAM_v110\Src110_X42\Entities\BloodSpray.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Boneman.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Bouncer.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Bullet.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Camera.cpp"
+"C:\SAM_v110\Src110_X42\Entities\CameraMarker.cpp"
+"C:\SAM_v110\Src110_X42\Entities\CannonBall.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Copier.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Counter.cpp"
+"C:\SAM_v110\Src110_X42\Entities\CrateRider.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Damager.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Debris.cpp"
+"C:\SAM_v110\Src110_X42\Entities\DestroyableArchitecture.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Devil.cpp"
+"C:\SAM_v110\Src110_X42\Entities\DevilMarker.cpp"
+"C:\SAM_v110\Src110_X42\Entities\DevilProjectile.cpp"
+"C:\SAM_v110\Src110_X42\Entities\DoorController.cpp"
+"C:\SAM_v110\Src110_X42\Entities\EffectMarker.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Effector.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Elemental.cpp"
+"C:\SAM_v110\Src110_X42\Entities\EnemyBase.cpp"
+"C:\SAM_v110\Src110_X42\Entities\EnemyCounter.cpp"
+"C:\SAM_v110\Src110_X42\Entities\EnemyDive.cpp"
+"C:\SAM_v110\Src110_X42\Entities\EnemyFly.cpp"
+"C:\SAM_v110\Src110_X42\Entities\EnemyMarker.cpp"
+"C:\SAM_v110\Src110_X42\Entities\EnemyRunInto.cpp"
+"C:\SAM_v110\Src110_X42\Entities\EnemySpawner.cpp"
+"C:\SAM_v110\Src110_X42\Entities\EnvironmentBase.cpp"
+"C:\SAM_v110\Src110_X42\Entities\EnvironmentMarker.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Eruptor.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Eyeman.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Fish.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Flame.cpp"
+"C:\SAM_v110\Src110_X42\Entities\FogMarker.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Gizmo.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Global.cpp"
+"C:\SAM_v110\Src110_X42\Entities\GradientMarker.cpp"
+"C:\SAM_v110\Src110_X42\Entities\GravityMarker.cpp"
+"C:\SAM_v110\Src110_X42\Entities\GravityRouter.cpp"
+"C:\SAM_v110\Src110_X42\Entities\HazeMarker.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Headman.cpp"
+"C:\SAM_v110\Src110_X42\Entities\HealthItem.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Item.cpp"
+"C:\SAM_v110\Src110_X42\Entities\KeyItem.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Light.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Lightning.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Marker.cpp"
+"C:\SAM_v110\Src110_X42\Entities\MessageHolder.cpp"
+"C:\SAM_v110\Src110_X42\Entities\MessageItem.cpp"
+"C:\SAM_v110\Src110_X42\Entities\MirrorMarker.cpp"
+"C:\SAM_v110\Src110_X42\Entities\ModelDestruction.cpp"
+"C:\SAM_v110\Src110_X42\Entities\ModelHolder.cpp"
+"C:\SAM_v110\Src110_X42\Entities\ModelHolder2.cpp"
+"C:\SAM_v110\Src110_X42\Entities\MovingBrush.cpp"
+"C:\SAM_v110\Src110_X42\Entities\MovingBrushMarker.cpp"
+"C:\SAM_v110\Src110_X42\Entities\MusicChanger.cpp"
+"C:\SAM_v110\Src110_X42\Entities\MusicHolder.cpp"
+"C:\SAM_v110\Src110_X42\Entities\NavigationMarker.cpp"
+"C:\SAM_v110\Src110_X42\Entities\ParticlesHolder.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Pendulum.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Player.cpp"
+"C:\SAM_v110\Src110_X42\Entities\PlayerActionMarker.cpp"
+"C:\SAM_v110\Src110_X42\Entities\PlayerAnimator.cpp"
+"C:\SAM_v110\Src110_X42\Entities\PlayerMarker.cpp"
+"C:\SAM_v110\Src110_X42\Entities\PlayerView.cpp"
+"C:\SAM_v110\Src110_X42\Entities\PlayerWeapons.cpp"
+"C:\SAM_v110\Src110_X42\Entities\PlayerWeaponsEffects.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Projectile.cpp"
+"C:\SAM_v110\Src110_X42\Entities\PyramidSpaceShip.cpp"
+"C:\SAM_v110\Src110_X42\Entities\PyramidSpaceShipMarker.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Reminder.cpp"
+"C:\SAM_v110\Src110_X42\Entities\RollingStone.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Scorpman.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Ship.cpp"
+"C:\SAM_v110\Src110_X42\Entities\ShipMarker.cpp"
+"C:\SAM_v110\Src110_X42\Entities\SoundHolder.cpp"
+"C:\SAM_v110\Src110_X42\Entities\StormController.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Switch.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Teleport.cpp"
+"C:\SAM_v110\Src110_X42\Entities\TouchField.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Trigger.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Twister.cpp"
+"C:\SAM_v110\Src110_X42\Entities\VoiceHolder.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Walker.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Watcher.cpp"
+"C:\SAM_v110\Src110_X42\Entities\WatchPlayers.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Water.cpp"
+"C:\SAM_v110\Src110_X42\Entities\WeaponItem.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Werebull.cpp"
+"C:\SAM_v110\Src110_X42\Entities\Woman.cpp"
+"C:\SAM_v110\Src110_X42\Entities\WorldBase.cpp"
+"C:\SAM_v110\Src110_X42\Entities\WorldLink.cpp"
+"C:\SAM_v110\Src110_X42\Entities\WorldSettingsController.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPF22B.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPF22C.tmp" with contents
+[
+/nologo /G5 /MD /W3 /GX /Zi /Ox /Ot /Og /Oi /Oy- /I "C:\SAM_v110\Src110_X42\Include" /I "C:\SAM_v110\Src110_X42" /D "SE1_D3D" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/Entities.pch" /Yc"StdH.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\Entities\StdH\StdH.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPF22C.tmp" 
+Entities/WorldSettingsController.es
+Entities/WorldLink.es
+Entities/WorldBase.es
+Entities/Woman.es
+Entities/Werebull.es
+Entities/WeaponItem.es
+Entities/Water.es
+Entities/WatchPlayers.es
+Entities/Watcher.es
+Entities/Walker.es
+Entities/VoiceHolder.es
+Entities/Twister.es
+Entities/Trigger.es
+Entities/TouchField.es
+Entities/Teleport.es
+Entities/Switch.es
+Entities/StormController.es
+Entities/SoundHolder.es
+Entities/ShipMarker.es
+Entities/Ship.es
+Entities/Scorpman.es
+Entities/RollingStone.es
+Entities/Reminder.es
+Entities/PyramidSpaceShipMarker.es
+Entities/PyramidSpaceShip.es
+Entities/Projectile.es
+Entities/PlayerWeaponsEffects.es
+Entities/PlayerWeapons.es
+Entities/PlayerView.es
+Entities/PlayerMarker.es
+Entities/PlayerAnimator.es
+Entities/PlayerActionMarker.es
+Entities/Player.es
+Entities/Pendulum.es
+Entities/ParticlesHolder.es
+Entities/NavigationMarker.es
+Entities/MusicHolder.es
+Entities/MusicChanger.es
+Entities/MovingBrushMarker.es
+Entities/MovingBrush.es
+Entities/ModelHolder2.es
+Entities/ModelHolder.es
+Entities/ModelDestruction.es
+Entities/MirrorMarker.es
+Entities/MessageItem.es
+Entities/MessageHolder.es
+Entities/Marker.es
+Entities/Lightning.es
+Entities/Light.es
+Entities/KeyItem.es
+Entities/Item.es
+Entities/HealthItem.es
+Entities/Headman.es
+Entities/HazeMarker.es
+Entities/GravityRouter.es
+Entities/GravityMarker.es
+Entities/GradientMarker.es
+Entities/Global.es
+Entities/Gizmo.es
+Entities/FogMarker.es
+Entities/Flame.es
+Entities/Fish.es
+Entities/Eyeman.es
+Entities/Eruptor.es
+Entities/EnvironmentMarker.es
+Entities/EnvironmentBase.es
+Entities/EnemySpawner.es
+Entities/EnemyRunInto.es
+Entities/EnemyMarker.es
+Entities/EnemyFly.es
+Entities/EnemyDive.es
+Entities/EnemyCounter.es
+Entities/EnemyBase.es
+Entities/Elemental.es
+Entities/Effector.es
+Entities/EffectMarker.es
+Entities/DoorController.es
+Entities/DevilProjectile.es
+Entities/DevilMarker.es
+Entities/Devil.es
+Entities/DestroyableArchitecture.es
+Entities/Debris.es
+Entities/Damager.es
+Entities/CrateRider.es
+Entities/Counter.es
+Entities/Copier.es
+Entities/CannonBall.es
+Entities/CameraMarker.es
+Entities/Camera.es
+Entities/Bullet.es
+Entities/Bouncer.es
+Entities/Boneman.es
+Entities/BloodSpray.es
+Entities/BlendController.es
+Entities/BigHead.es
+Entities/Beast.es
+Entities/BasicEffects.es
+Entities/BackgroundViewer.es
+Entities/ArmorItem.es
+Entities/AnimationHub.es
+Entities/AnimationChanger.es
+Entities/AmmoPack.es
+Entities/AmmoItem.es
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP2D52.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/Entities.pdb" /map:"Release/Entities.map" /debug /machine:I386 /out:"Release/Entities.dll" /implib:"Release/Entities.lib" /pdbtype:sept /libpath:"C:\SAM_v110\Src110_X42\Bin" /libpath:"C:\SAM_v110\Src110_X42\Bin\Debug" /libpath:"C:\SAM_v110\Src110_X42\Lib" 
+.\Release\Common.obj
+.\Release\HUD.obj
+.\Release\Particles.obj
+.\Release\PathFinding.obj
+.\Release\StdH.obj
+.\Release\AmmoItem.obj
+.\Release\AmmoPack.obj
+.\Release\AnimationChanger.obj
+.\Release\AnimationHub.obj
+.\Release\ArmorItem.obj
+.\Release\BackgroundViewer.obj
+.\Release\BasicEffects.obj
+.\Release\Beast.obj
+.\Release\BigHead.obj
+.\Release\BlendController.obj
+.\Release\BloodSpray.obj
+.\Release\Boneman.obj
+.\Release\Bouncer.obj
+.\Release\Bullet.obj
+.\Release\Camera.obj
+.\Release\CameraMarker.obj
+.\Release\CannonBall.obj
+.\Release\Copier.obj
+.\Release\Counter.obj
+.\Release\CrateRider.obj
+.\Release\Damager.obj
+.\Release\Debris.obj
+.\Release\DestroyableArchitecture.obj
+.\Release\Devil.obj
+.\Release\DevilMarker.obj
+.\Release\DevilProjectile.obj
+.\Release\DoorController.obj
+.\Release\EffectMarker.obj
+.\Release\Effector.obj
+.\Release\Elemental.obj
+.\Release\EnemyBase.obj
+.\Release\EnemyCounter.obj
+.\Release\EnemyDive.obj
+.\Release\EnemyFly.obj
+.\Release\EnemyMarker.obj
+.\Release\EnemyRunInto.obj
+.\Release\EnemySpawner.obj
+.\Release\EnvironmentBase.obj
+.\Release\EnvironmentMarker.obj
+.\Release\Eruptor.obj
+.\Release\Eyeman.obj
+.\Release\Fish.obj
+.\Release\Flame.obj
+.\Release\FogMarker.obj
+.\Release\Gizmo.obj
+.\Release\Global.obj
+.\Release\GradientMarker.obj
+.\Release\GravityMarker.obj
+.\Release\GravityRouter.obj
+.\Release\HazeMarker.obj
+.\Release\Headman.obj
+.\Release\HealthItem.obj
+.\Release\Item.obj
+.\Release\KeyItem.obj
+.\Release\Light.obj
+.\Release\Lightning.obj
+.\Release\Marker.obj
+.\Release\MessageHolder.obj
+.\Release\MessageItem.obj
+.\Release\MirrorMarker.obj
+.\Release\ModelDestruction.obj
+.\Release\ModelHolder.obj
+.\Release\ModelHolder2.obj
+.\Release\MovingBrush.obj
+.\Release\MovingBrushMarker.obj
+.\Release\MusicChanger.obj
+.\Release\MusicHolder.obj
+.\Release\NavigationMarker.obj
+.\Release\ParticlesHolder.obj
+.\Release\Pendulum.obj
+.\Release\Player.obj
+.\Release\PlayerActionMarker.obj
+.\Release\PlayerAnimator.obj
+.\Release\PlayerMarker.obj
+.\Release\PlayerView.obj
+.\Release\PlayerWeapons.obj
+.\Release\PlayerWeaponsEffects.obj
+.\Release\Projectile.obj
+.\Release\PyramidSpaceShip.obj
+.\Release\PyramidSpaceShipMarker.obj
+.\Release\Reminder.obj
+.\Release\RollingStone.obj
+.\Release\Scorpman.obj
+.\Release\Ship.obj
+.\Release\ShipMarker.obj
+.\Release\SoundHolder.obj
+.\Release\StormController.obj
+.\Release\Switch.obj
+.\Release\Teleport.obj
+.\Release\TouchField.obj
+.\Release\Trigger.obj
+.\Release\Twister.obj
+.\Release\VoiceHolder.obj
+.\Release\Walker.obj
+.\Release\Watcher.obj
+.\Release\WatchPlayers.obj
+.\Release\Water.obj
+.\Release\WeaponItem.obj
+.\Release\Werebull.obj
+.\Release\Woman.obj
+.\Release\WorldBase.obj
+.\Release\WorldLink.obj
+.\Release\WorldSettingsController.obj
+\SAM_v110\Src110_X42\Engine\Release\Engine.lib
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP2D52.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP2D53.bat" with contents
+[
+@echo off
+copy Release\Entities.dll C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\Entities.map C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\Entities.lib C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP2D53.bat"
+Compiling...
+StdH.cpp
+>> Uncomment include to terrain.h
+Compiling...
+Common.cpp
+HUD.cpp
+Particles.cpp
+PathFinding.cpp
+AmmoItem.cpp
+AmmoPack.cpp
+AnimationChanger.cpp
+AnimationHub.cpp
+ArmorItem.cpp
+BackgroundViewer.cpp
+BasicEffects.cpp
+Beast.cpp
+BigHead.cpp
+BlendController.cpp
+BloodSpray.cpp
+Boneman.cpp
+Bouncer.cpp
+Bullet.cpp
+Camera.cpp
+CameraMarker.cpp
+Generating Code...
+Compiling...
+CannonBall.cpp
+Copier.cpp
+Counter.cpp
+CrateRider.cpp
+Damager.cpp
+Debris.cpp
+DestroyableArchitecture.cpp
+Devil.cpp
+DevilMarker.cpp
+DevilProjectile.cpp
+DoorController.cpp
+EffectMarker.cpp
+Effector.cpp
+Elemental.cpp
+EnemyBase.cpp
+EnemyCounter.cpp
+EnemyDive.cpp
+EnemyFly.cpp
+EnemyMarker.cpp
+EnemyRunInto.cpp
+Generating Code...
+Compiling...
+EnemySpawner.cpp
+EnvironmentBase.cpp
+EnvironmentMarker.cpp
+Eruptor.cpp
+Eyeman.cpp
+Fish.cpp
+Flame.cpp
+FogMarker.cpp
+Gizmo.cpp
+Global.cpp
+GradientMarker.cpp
+GravityMarker.cpp
+GravityRouter.cpp
+HazeMarker.cpp
+Headman.cpp
+HealthItem.cpp
+Item.cpp
+KeyItem.cpp
+Light.cpp
+Lightning.cpp
+Generating Code...
+Compiling...
+Marker.cpp
+MessageHolder.cpp
+MessageItem.cpp
+MirrorMarker.cpp
+ModelDestruction.cpp
+ModelHolder.cpp
+ModelHolder2.cpp
+MovingBrush.cpp
+MovingBrushMarker.cpp
+MusicChanger.cpp
+MusicHolder.cpp
+NavigationMarker.cpp
+ParticlesHolder.cpp
+Pendulum.cpp
+Player.cpp
+PlayerActionMarker.cpp
+PlayerAnimator.cpp
+PlayerMarker.cpp
+PlayerView.cpp
+PlayerWeapons.cpp
+Generating Code...
+Compiling...
+PlayerWeaponsEffects.cpp
+Projectile.cpp
+PyramidSpaceShip.cpp
+PyramidSpaceShipMarker.cpp
+Reminder.cpp
+RollingStone.cpp
+Scorpman.cpp
+Ship.cpp
+ShipMarker.cpp
+SoundHolder.cpp
+StormController.cpp
+Switch.cpp
+Teleport.cpp
+TouchField.cpp
+Trigger.cpp
+Twister.cpp
+VoiceHolder.cpp
+Walker.cpp
+Watcher.cpp
+WatchPlayers.cpp
+Generating Code...
+Compiling...
+Water.cpp
+WeaponItem.cpp
+Werebull.cpp
+Woman.cpp
+WorldBase.cpp
+WorldLink.cpp
+WorldSettingsController.cpp
+Generating Code...
+Linking...
+   Creating library Release/Entities.lib and object Release/Entities.exp
+<h3>Output Window</h3>
+Copying Entities binaries to C:\SAM_v110\Src110_X42\Bin
+<h3>
+--------------------Configuration: GameMP - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP847D.tmp" with contents
+[
+/nologo /G5 /MD /W3 /GX /Zi /Ox /Ot /Og /Oi /Oy- /I "C:\SAM_v110\Src110_X42\Include" /I "C:\SAM_v110\Src110_X42" /D "FIRST_ENCOUNTER" /D "SE1_D3D" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "GAME_EXPORTS" /Fp"Release/GameMP.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\GameMP\Camera.cpp"
+"C:\SAM_v110\Src110_X42\GameMP\CompMessage.cpp"
+"C:\SAM_v110\Src110_X42\GameMP\CompModels.cpp"
+"C:\SAM_v110\Src110_X42\GameMP\Computer.cpp"
+"C:\SAM_v110\Src110_X42\GameMP\Console.cpp"
+"C:\SAM_v110\Src110_X42\GameMP\Controls.cpp"
+"C:\SAM_v110\Src110_X42\GameMP\Game.cpp"
+"C:\SAM_v110\Src110_X42\GameMP\LCDDrawing.cpp"
+"C:\SAM_v110\Src110_X42\GameMP\LoadingHook.cpp"
+"C:\SAM_v110\Src110_X42\GameMP\Map.cpp"
+"C:\SAM_v110\Src110_X42\GameMP\SessionProperties.cpp"
+"C:\SAM_v110\Src110_X42\GameMP\WEDInterface.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP847D.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP847E.tmp" with contents
+[
+/nologo /G5 /MD /W3 /GX /Zi /Ox /Ot /Og /Oi /Oy- /I "C:\SAM_v110\Src110_X42\Include" /I "C:\SAM_v110\Src110_X42" /D "FIRST_ENCOUNTER" /D "SE1_D3D" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "GAME_EXPORTS" /Fp"Release/GameMP.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\GameMP\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP847E.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP847F.tmp" with contents
+[
+user32.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/Game.pdb" /map:"Release/Game.map" /debug /machine:I386 /out:"Release/Game.dll" /implib:"Release/Game.lib" /pdbtype:sept /libpath:"C:\SAM_v110\Src110_X42\Bin" /libpath:"C:\SAM_v110\Src110_X42\Bin\Debug" /libpath:"C:\SAM_v110\Src110_X42\Lib" 
+.\Release\Camera.obj
+.\Release\CompMessage.obj
+.\Release\CompModels.obj
+.\Release\Computer.obj
+.\Release\Console.obj
+.\Release\Controls.obj
+.\Release\Game.obj
+.\Release\LCDDrawing.obj
+.\Release\LoadingHook.obj
+.\Release\Map.obj
+.\Release\SessionProperties.obj
+.\Release\StdAfx.obj
+.\Release\WEDInterface.obj
+\SAM_v110\Src110_X42\Entities\Release\Entities.lib
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP847F.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP8480.bat" with contents
+[
+@echo off
+copy Release\Game.dll C:\SAM_v110\Src110_X42\Bin\Game.dll >nul
+copy Release\Game.map C:\SAM_v110\Src110_X42\Bin\Game.map >nul
+copy Release\Game.lib C:\SAM_v110\Src110_X42\Bin\Game.lib >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP8480.bat"
+Compiling...
+StdAfx.cpp
+>> Uncomment include to terrain.h
+Compiling...
+Camera.cpp
+CompMessage.cpp
+CompModels.cpp
+Computer.cpp
+Console.cpp
+Controls.cpp
+Game.cpp
+LCDDrawing.cpp
+LoadingHook.cpp
+Map.cpp
+SessionProperties.cpp
+WEDInterface.cpp
+Generating Code...
+Linking...
+   Creating library Release/Game.lib and object Release/Game.exp
+<h3>Output Window</h3>
+Copying Game binaries to C:\SAM_v110\Src110_X42\Bin
+<h3>
+--------------------Configuration: GameGUIMP - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/GameGUI.res" /d "NDEBUG" /d "_AFXDLL" "C:\SAM_v110\Src110_X42\GameGUIMP\GameGUI.rc"" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP9067.tmp" with contents
+[
+/nologo /G5 /MD /W3 /GX /Zi /Ox /Ot /Og /Oi /Oy- /I "C:\SAM_v110\Src110_X42\Include" /I "C:\SAM_v110\Src110_X42" /D "FIRST_ENCOUNTER" /D "SE1_D3D" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "GAMEGUI_EXPORTS" /D "_WINDLL" /D "_AFXDLL" /Fp"Release/GameGUIMP.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\GameGUIMP\ActionsListControl.cpp"
+"C:\SAM_v110\Src110_X42\GameGUIMP\AxisListCtrl.cpp"
+"C:\SAM_v110\Src110_X42\GameGUIMP\ConsoleSymbolsCombo.cpp"
+"C:\SAM_v110\Src110_X42\GameGUIMP\DlgAudioQuality.cpp"
+"C:\SAM_v110\Src110_X42\GameGUIMP\DlgConsole.cpp"
+"C:\SAM_v110\Src110_X42\GameGUIMP\DlgEditButtonAction.cpp"
+"C:\SAM_v110\Src110_X42\GameGUIMP\DlgPlayerAppearance.cpp"
+"C:\SAM_v110\Src110_X42\GameGUIMP\DlgPlayerControls.cpp"
+"C:\SAM_v110\Src110_X42\GameGUIMP\DlgPlayerSettings.cpp"
+"C:\SAM_v110\Src110_X42\GameGUIMP\DlgRenameControls.cpp"
+"C:\SAM_v110\Src110_X42\GameGUIMP\DlgSelectPlayer.cpp"
+"C:\SAM_v110\Src110_X42\GameGUIMP\DlgVideoQuality.cpp"
+"C:\SAM_v110\Src110_X42\GameGUIMP\EditConsole.cpp"
+"C:\SAM_v110\Src110_X42\GameGUIMP\GameGUI.cpp"
+"C:\SAM_v110\Src110_X42\GameGUIMP\LocalPlayersList.cpp"
+"C:\SAM_v110\Src110_X42\GameGUIMP\PressKeyEditControl.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP9067.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP9068.tmp" with contents
+[
+/nologo /G5 /MD /W3 /GX /Zi /Ox /Ot /Og /Oi /Oy- /I "C:\SAM_v110\Src110_X42\Include" /I "C:\SAM_v110\Src110_X42" /D "FIRST_ENCOUNTER" /D "SE1_D3D" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "GAMEGUI_EXPORTS" /D "_WINDLL" /D "_AFXDLL" /Fp"Release/GameGUIMP.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\GameGUIMP\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP9068.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP9079.tmp" with contents
+[
+/nologo /dll /incremental:no /pdb:"Release/GameGUI.pdb" /map:"Release/GameGUI.map" /debug /machine:I386 /out:"Release/GameGUI.dll" /implib:"Release/GameGUI.lib" /pdbtype:sept /libpath:"C:\SAM_v110\Src110_X42\Bin" /libpath:"C:\SAM_v110\Src110_X42\Bin\Debug" /libpath:"C:\SAM_v110\Src110_X42\Lib" 
+.\Release\ActionsListControl.obj
+.\Release\AxisListCtrl.obj
+.\Release\ConsoleSymbolsCombo.obj
+.\Release\DlgAudioQuality.obj
+.\Release\DlgConsole.obj
+.\Release\DlgEditButtonAction.obj
+.\Release\DlgPlayerAppearance.obj
+.\Release\DlgPlayerControls.obj
+.\Release\DlgPlayerSettings.obj
+.\Release\DlgRenameControls.obj
+.\Release\DlgSelectPlayer.obj
+.\Release\DlgVideoQuality.obj
+.\Release\EditConsole.obj
+.\Release\GameGUI.obj
+.\Release\LocalPlayersList.obj
+.\Release\PressKeyEditControl.obj
+.\Release\StdAfx.obj
+.\Release\GameGUI.res
+\SAM_v110\Src110_X42\EngineGUI\Release\EngineGUI.lib
+\SAM_v110\Src110_X42\GameMP\Release\Game.lib
+\SAM_v110\Src110_X42\Entities\Release\Entities.lib
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP9079.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP907A.bat" with contents
+[
+@echo off
+copy Release\GameGUI.dll C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\GameGUI.map C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\GameGUI.lib C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP907A.bat"
+Compiling resources...
+Compiling...
+StdAfx.cpp
+>> Uncomment include to terrain.h
+Compiling...
+ActionsListControl.cpp
+AxisListCtrl.cpp
+ConsoleSymbolsCombo.cpp
+DlgAudioQuality.cpp
+DlgConsole.cpp
+DlgEditButtonAction.cpp
+DlgPlayerAppearance.cpp
+DlgPlayerControls.cpp
+DlgPlayerSettings.cpp
+DlgRenameControls.cpp
+Generating Code...
+Compiling...
+DlgSelectPlayer.cpp
+DlgVideoQuality.cpp
+EditConsole.cpp
+GameGUI.cpp
+LocalPlayersList.cpp
+PressKeyEditControl.cpp
+Generating Code...
+Linking...
+   Creating library Release/GameGUI.lib and object Release/GameGUI.exp
+<h3>Output Window</h3>
+Copying GameGUI binaries to C:\SAM_v110\Src110_X42\Bin
+<h3>
+--------------------Configuration: Shaders - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPA02B.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /I "C:\SAM_v110\Src110_X42" /I "C:\SAM_v110\Src110_X42\Include" /D "FIRST_ENCOUNTER" /D "SE1_D3D" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "SHADERS_EXPORTS" /Fp"Release/Shaders.pch" /Yu"StdH.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\Shaders\AddShader.cpp"
+"C:\SAM_v110\Src110_X42\Shaders\AddShaderDS.cpp"
+"C:\SAM_v110\Src110_X42\Shaders\BaseShader.cpp"
+"C:\SAM_v110\Src110_X42\Shaders\BaseShaderDS.cpp"
+"C:\SAM_v110\Src110_X42\Shaders\BaseTransparent.cpp"
+"C:\SAM_v110\Src110_X42\Shaders\BaseTransparentDS.cpp"
+"C:\SAM_v110\Src110_X42\Shaders\ColorShader.cpp"
+"C:\SAM_v110\Src110_X42\Shaders\Common.cpp"
+"C:\SAM_v110\Src110_X42\Shaders\DetailShader.cpp"
+"C:\SAM_v110\Src110_X42\Shaders\DisplaceShader.cpp"
+"C:\SAM_v110\Src110_X42\Shaders\InvisibleShader.cpp"
+"C:\SAM_v110\Src110_X42\Shaders\MultiLayerShader.cpp"
+"C:\SAM_v110\Src110_X42\Shaders\Reflection.cpp"
+"C:\SAM_v110\Src110_X42\Shaders\ReflectionDS.cpp"
+"C:\SAM_v110\Src110_X42\Shaders\ReftectionAndSpecular.cpp"
+"C:\SAM_v110\Src110_X42\Shaders\ReftectionAndSpecularDS.cpp"
+"C:\SAM_v110\Src110_X42\Shaders\Specular.cpp"
+"C:\SAM_v110\Src110_X42\Shaders\SpecularDS.cpp"
+"C:\SAM_v110\Src110_X42\Shaders\Translucent.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPA02B.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPA03B.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /I "C:\SAM_v110\Src110_X42" /I "C:\SAM_v110\Src110_X42\Include" /D "FIRST_ENCOUNTER" /D "SE1_D3D" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "SHADERS_EXPORTS" /Fp"Release/Shaders.pch" /Yc"StdH.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\Shaders\StdH.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPA03B.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPA03C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/Shaders.pdb" /machine:I386 /out:"Release/Shaders.dll" /implib:"Release/Shaders.lib" /libpath:"C:\SAM_v110\Src110_X42\Bin" /libpath:"C:\SAM_v110\Src110_X42\Bin\Debug" /libpath:"C:\SAM_v110\Src110_X42\Lib" 
+.\Release\AddShader.obj
+.\Release\AddShaderDS.obj
+.\Release\BaseShader.obj
+.\Release\BaseShaderDS.obj
+.\Release\BaseTransparent.obj
+.\Release\BaseTransparentDS.obj
+.\Release\ColorShader.obj
+.\Release\Common.obj
+.\Release\DetailShader.obj
+.\Release\DisplaceShader.obj
+.\Release\InvisibleShader.obj
+.\Release\MultiLayerShader.obj
+.\Release\Reflection.obj
+.\Release\ReflectionDS.obj
+.\Release\ReftectionAndSpecular.obj
+.\Release\ReftectionAndSpecularDS.obj
+.\Release\Specular.obj
+.\Release\SpecularDS.obj
+.\Release\StdH.obj
+.\Release\Translucent.obj
+\SAM_v110\Src110_X42\Engine\Release\Engine.lib
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPA03C.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPA03D.bat" with contents
+[
+@echo off
+copy Release\Shaders.dll C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\Shaders.map C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\Shaders.lib C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPA03D.bat"
+Compiling...
+StdH.cpp
+>> Uncomment include to terrain.h
+Compiling...
+AddShader.cpp
+AddShaderDS.cpp
+BaseShader.cpp
+BaseShaderDS.cpp
+BaseTransparent.cpp
+BaseTransparentDS.cpp
+Generating Code...
+Compiling...
+ColorShader.cpp
+Common.cpp
+DetailShader.cpp
+DisplaceShader.cpp
+InvisibleShader.cpp
+MultiLayerShader.cpp
+Generating Code...
+Compiling...
+Reflection.cpp
+ReflectionDS.cpp
+ReftectionAndSpecular.cpp
+ReftectionAndSpecularDS.cpp
+Specular.cpp
+SpecularDS.cpp
+Generating Code...
+Compiling...
+Translucent.cpp
+Generating Code...
+Linking...
+   Creating library Release/Shaders.lib and object Release/Shaders.exp
+<h3>Output Window</h3>
+Copying Shaders binaries to C:\SAM_v110\Src110_X42\Bin
+<h3>
+--------------------Configuration: amp11lib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPAADD.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /I "binfile" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "AMP11LIB_EXPORTS" /Fp"Release/amp11lib.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\amp11lib\binfile\binfarc.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\binfile\binfcon.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\binfile\binfhttp.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\binfile\binfile.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\binfile\binfilef.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\binfile\binfmem.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\binfile\binfplnt.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\binfile\binfplwv.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\binfile\binfstd.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\binfile\binftcp.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\amp11lib.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\amp1dec.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\amp2dec.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\amp3dec.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\ampdec.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\ampsynth.cpp"
+"C:\SAM_v110\Src110_X42\amp11lib\mpgsplit.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPAADD.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPAADE.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/amp11lib.pdb" /debug /machine:I386 /out:"Release/amp11lib.dll" /implib:"Release/amp11lib.lib" 
+.\Release\binfarc.obj
+.\Release\binfcon.obj
+.\Release\binfhttp.obj
+.\Release\binfile.obj
+.\Release\binfilef.obj
+.\Release\binfmem.obj
+.\Release\binfplnt.obj
+.\Release\binfplwv.obj
+.\Release\binfstd.obj
+.\Release\binftcp.obj
+.\Release\amp11lib.obj
+.\Release\amp1dec.obj
+.\Release\amp2dec.obj
+.\Release\amp3dec.obj
+.\Release\ampdec.obj
+.\Release\ampsynth.obj
+.\Release\mpgsplit.obj
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPAADE.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPAADF.bat" with contents
+[
+@echo off
+copy Release\amp11lib.dll C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\amp11lib.map C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\amp11lib.lib C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPAADF.bat"
+Compiling...
+binfarc.cpp
+binfcon.cpp
+binfhttp.cpp
+binfile.cpp
+binfilef.cpp
+binfmem.cpp
+binfplnt.cpp
+binfplwv.cpp
+binfstd.cpp
+binftcp.cpp
+amp11lib.cpp
+amp1dec.cpp
+amp2dec.cpp
+amp3dec.cpp
+ampdec.cpp
+ampsynth.cpp
+mpgsplit.cpp
+Linking...
+   Creating library Release/amp11lib.lib and object Release/amp11lib.exp
+<h3>Output Window</h3>
+Copying amp11lib binaries to C:\SAM_v110\Src110_X42\Bin
+<h3>
+--------------------Configuration: ogg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPBCD2.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "C:\SAM_v110\Src110_X42" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /Fp"Release/ogg.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\ogg\bitwise.c"
+"C:\SAM_v110\Src110_X42\ogg\framing.c"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPBCD2.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPBCD3.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/ogg.pdb" /machine:I386 /def:".\ogg.def" /out:"Release/ogg.dll" /implib:"Release/ogg.lib" 
+.\Release\bitwise.obj
+.\Release\framing.obj
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPBCD3.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPBCD4.bat" with contents
+[
+@echo off
+copy Release\ogg.dll C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\ogg.map C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\ogg.lib C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPBCD4.bat"
+Compiling...
+bitwise.c
+framing.c
+Linking...
+   Creating library Release/ogg.lib and object Release/ogg.exp
+<h3>Output Window</h3>
+Copying ogg binaries to C:\SAM_v110\Src110_X42\Bin
+<h3>
+--------------------Configuration: vorbis - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPC0CC.tmp" with contents
+[
+/nologo /MD /GX /O2 /I "C:\SAM_v110\Src110_X42" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "VORBIS_IEEE_FLOAT32" /D "_USE_NON_INTEL_COMPILER" /Fp"Release/vorbis.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\vorbis\analysis.c"
+"C:\SAM_v110\Src110_X42\vorbis\bitrate.c"
+"C:\SAM_v110\Src110_X42\vorbis\block.c"
+"C:\SAM_v110\Src110_X42\vorbis\codebook.c"
+"C:\SAM_v110\Src110_X42\vorbis\envelope.c"
+"C:\SAM_v110\Src110_X42\vorbis\floor0.c"
+"C:\SAM_v110\Src110_X42\vorbis\floor1.c"
+"C:\SAM_v110\Src110_X42\vorbis\info.c"
+"C:\SAM_v110\Src110_X42\vorbis\lookup.c"
+"C:\SAM_v110\Src110_X42\vorbis\lpc.c"
+"C:\SAM_v110\Src110_X42\vorbis\lsp.c"
+"C:\SAM_v110\Src110_X42\vorbis\mapping0.c"
+"C:\SAM_v110\Src110_X42\vorbis\mdct.c"
+"C:\SAM_v110\Src110_X42\vorbis\psy.c"
+"C:\SAM_v110\Src110_X42\vorbis\registry.c"
+"C:\SAM_v110\Src110_X42\vorbis\res0.c"
+"C:\SAM_v110\Src110_X42\vorbis\sharedbook.c"
+"C:\SAM_v110\Src110_X42\vorbis\smallft.c"
+"C:\SAM_v110\Src110_X42\vorbis\synthesis.c"
+"C:\SAM_v110\Src110_X42\vorbis\vorbisenc.c"
+"C:\SAM_v110\Src110_X42\vorbis\window.c"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPC0CC.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPC0CD.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ogg.lib /nologo /dll /incremental:no /pdb:"Release/vorbis.pdb" /machine:I386 /def:".\vorbis.def" /out:"Release/vorbis.dll" /implib:"Release/vorbis.lib" /libpath:"C:\SAM_v110\Src110_X42\Bin" 
+.\Release\analysis.obj
+.\Release\bitrate.obj
+.\Release\block.obj
+.\Release\codebook.obj
+.\Release\envelope.obj
+.\Release\floor0.obj
+.\Release\floor1.obj
+.\Release\info.obj
+.\Release\lookup.obj
+.\Release\lpc.obj
+.\Release\lsp.obj
+.\Release\mapping0.obj
+.\Release\mdct.obj
+.\Release\psy.obj
+.\Release\registry.obj
+.\Release\res0.obj
+.\Release\sharedbook.obj
+.\Release\smallft.obj
+.\Release\synthesis.obj
+.\Release\vorbisenc.obj
+.\Release\window.obj
+\SAM_v110\Src110_X42\ogg\Release\ogg.lib
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPC0CD.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPC0CE.bat" with contents
+[
+@echo off
+copy Release\vorbis.dll C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\vorbis.map C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\vorbis.lib C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPC0CE.bat"
+Compiling...
+analysis.c
+bitrate.c
+block.c
+codebook.c
+envelope.c
+floor0.c
+floor1.c
+info.c
+lookup.c
+lpc.c
+lsp.c
+mapping0.c
+mdct.c
+psy.c
+registry.c
+res0.c
+sharedbook.c
+smallft.c
+synthesis.c
+vorbisenc.c
+window.c
+Linking...
+   Creating library Release/vorbis.lib and object Release/vorbis.exp
+<h3>Output Window</h3>
+Copying vorbis binaries to C:\SAM_v110\Src110_X42\Bin
+<h3>
+--------------------Configuration: vorbisfile - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPD774.tmp" with contents
+[
+/nologo /MD /w /W0 /GX /O2 /I "C:\SAM_v110\Src110_X42" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WIN32" /D "VORBIS_IEEE_FLOAT32" /D "_USE_NON_INTEL_COMPILER" /Fp"Release/vorbisfile.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\vorbis\vorbisfile.c"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPD774.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPD775.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ogg.lib vorbis.lib /nologo /dll /incremental:no /pdb:"Release/vorbisfile.pdb" /machine:I386 /def:".\vorbisfile.def" /out:"Release/vorbisfile.dll" /implib:"Release/vorbisfile.lib" /libpath:".\Release" /libpath:"C:\SAM_v110\Src110_X42\Bin" 
+.\Release\vorbisfile.obj
+.\Release\vorbis.lib
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPD775.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPD776.bat" with contents
+[
+@echo off
+copy Release\vorbisfile.dll C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\vorbisfile.map C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\vorbisfile.lib C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPD776.bat"
+Compiling...
+vorbisfile.c
+Linking...
+   Creating library Release/vorbisfile.lib and object Release/vorbisfile.exp
+<h3>Output Window</h3>
+Copying vorbisfile binaries to C:\SAM_v110\Src110_X42\Bin
+<h3>
+--------------------Configuration: SeriousSam - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/SeriousSam.res" /d "NDEBUG" "C:\SAM_v110\Src110_X42\SeriousSam\SeriousSam.rc"" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPDA75.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "C:\SAM_v110\Src110_X42\Include" /I "C:\SAM_v110\Src110_X42" /D "FIRST_ENCOUNTER" /D "SE1_D3D" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/SeriousSam.pch" /Yu"StdH.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\SeriousSam\CmdLine.cpp"
+"C:\SAM_v110\Src110_X42\SeriousSam\Credits.cpp"
+"C:\SAM_v110\Src110_X42\SeriousSam\GLSettings.cpp"
+"C:\SAM_v110\Src110_X42\SeriousSam\LCDDrawing.cpp"
+"C:\SAM_v110\Src110_X42\SeriousSam\LevelInfo.cpp"
+"C:\SAM_v110\Src110_X42\SeriousSam\MainWindow.cpp"
+"C:\SAM_v110\Src110_X42\SeriousSam\Menu.cpp"
+"C:\SAM_v110\Src110_X42\SeriousSam\MenuGadgets.cpp"
+"C:\SAM_v110\Src110_X42\SeriousSam\MenuPrinting.cpp"
+"C:\SAM_v110\Src110_X42\SeriousSam\SeriousSam.cpp"
+"C:\SAM_v110\Src110_X42\SeriousSam\SplashScreen.cpp"
+"C:\SAM_v110\Src110_X42\SeriousSam\VarList.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPDA75.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPDA76.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "C:\SAM_v110\Src110_X42\Include" /I "C:\SAM_v110\Src110_X42" /D "FIRST_ENCOUNTER" /D "SE1_D3D" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/SeriousSam.pch" /Yc"StdH.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\SeriousSam\StdH.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPDA76.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPDA77.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/SeriousSam.pdb" /machine:I386 /out:"Release/SeriousSam.exe" /libpath:"C:\SAM_v110\Src110_X42\Bin" /libpath:"C:\SAM_v110\Src110_X42\Bin\Debug" /libpath:"C:\SAM_v110\Src110_X42\Lib" 
+.\Release\CmdLine.obj
+.\Release\Credits.obj
+.\Release\GLSettings.obj
+.\Release\LCDDrawing.obj
+.\Release\LevelInfo.obj
+.\Release\MainWindow.obj
+.\Release\Menu.obj
+.\Release\MenuGadgets.obj
+.\Release\MenuPrinting.obj
+.\Release\SeriousSam.obj
+.\Release\SplashScreen.obj
+.\Release\StdH.obj
+.\Release\VarList.obj
+.\Release\SeriousSam.res
+\SAM_v110\Src110_X42\Engine\Release\Engine.lib
+\SAM_v110\Src110_X42\GameMP\Release\Game.lib
+\SAM_v110\Src110_X42\amp11lib\Release\amp11lib.lib
+\SAM_v110\Src110_X42\Shaders\Release\Shaders.lib
+\SAM_v110\Src110_X42\vorbis\Release\vorbisfile.lib
+\SAM_v110\Src110_X42\Entities\Release\Entities.lib
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPDA77.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPDA78.bat" with contents
+[
+@echo off
+copy Release\SeriousSam.exe C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPDA78.bat"
+Compiling resources...
+Compiling...
+StdH.cpp
+>> Uncomment include to terrain.h
+Compiling...
+CmdLine.cpp
+Credits.cpp
+Generating Code...
+Compiling...
+GLSettings.cpp
+LCDDrawing.cpp
+Generating Code...
+Compiling...
+LevelInfo.cpp
+MainWindow.cpp
+Generating Code...
+Compiling...
+Menu.cpp
+MenuGadgets.cpp
+Generating Code...
+Compiling...
+MenuPrinting.cpp
+SeriousSam.cpp
+Generating Code...
+Compiling...
+SplashScreen.cpp
+VarList.cpp
+Generating Code...
+Linking...
+<h3>Output Window</h3>
+Copying SeriousSam binaries to C:\SAM_v110\Src110_X42\Bin
+<h3>
+--------------------Configuration: WorldEditor - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/WorldEditor.res" /d "NDEBUG" /d "_AFXDLL" "C:\SAM_v110\Src110_X42\WorldEditor\WorldEditor.rc"" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPE844.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "C:\SAM_v110\Src110_X42\Include" /I "C:\SAM_v110\Src110_X42" /D "FIRST_ENCOUNTER" /D "SE1_D3D" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/WorldEditor.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\WorldEditor\ActiveTextureWnd.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\Browser.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\BrowseWindow.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\BrushPaletteWnd.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\ChildFrm.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\ColoredButton.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\ColorPaletteWnd.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\CSGDesitnationCombo.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\CtlTipOfTheDayText.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\CtrlAxisRadio.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\CtrlBrowseFile.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\CtrlEditBoolean.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\CtrlEditFlags.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\CtrlEditFloat.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\CtrlEditString.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\CtrlEnumCombo.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\CustomComboWnd.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgAllignVertices.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgAutoDeltaCSG.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgAutTexturize.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgBrowseByClass.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgComment.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgCreateVirtualDirectory.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgDisplaceMapSize.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgEditFloat.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgEditTerrainBrush.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgEditTerrainLayer.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgFilterPolygonSelection.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgFilterVertexSelection.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgGenerateFBM.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgLightAnimationEditor.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgLinkTree.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgMirrorAndStretch.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgNumericAlpha.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgPgGlobal.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgPgPolygon.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgPgPosition.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgPgPrimitive.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgPgRenderingStatistics.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgPgSector.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgPgShadow.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgPgTerrain.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgPgTexture.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgPreferences.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgProgress.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgRenderingPreferences.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgSelectByName.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgSnapVertex.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgStretchChildOffset.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgTEOperationSettings.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgTerrainProperties.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgTipOfTheDay.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgTreeShortcuts.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\DlgWorldSettings.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\EditMipSwitchDistance.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\EntitySelectionListBox.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\InfoFrame.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\InfoSheet.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\MainFrm.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\PrimitiveHistoryCombo.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\PropertyComboBar.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\PropertyComboBox.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\SkyFloat.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\TerrainEditing.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\TerrainInterface.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\ToolTipWnd.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\TriangularisationCombo.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\Viewers.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\ViewTexture.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\VirtualTreeCtrl.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\VirtualTreeNode.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\WndAnimationFrames.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\WndDisplayTexture.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\WndTerrainTilePalette.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\WndTestAnimation.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\WorldEditor.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\WorldEditorDoc.cpp"
+"C:\SAM_v110\Src110_X42\WorldEditor\WorldEditorView.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPE844.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPE845.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "C:\SAM_v110\Src110_X42\Include" /I "C:\SAM_v110\Src110_X42" /D "FIRST_ENCOUNTER" /D "SE1_D3D" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/WorldEditor.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\SAM_v110\Src110_X42\WorldEditor\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPE845.tmp" 
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPE846.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/SeriousEditor.pdb" /machine:I386 /out:"Release/SeriousEditor.exe" /libpath:"C:\SAM_v110\Src110_X42\Bin" /libpath:"C:\SAM_v110\Src110_X42\Bin\Debug" /libpath:"C:\SAM_v110\Src110_X42\Lib" 
+.\Release\ActiveTextureWnd.obj
+.\Release\Browser.obj
+.\Release\BrowseWindow.obj
+.\Release\BrushPaletteWnd.obj
+.\Release\ChildFrm.obj
+.\Release\ColoredButton.obj
+.\Release\ColorPaletteWnd.obj
+.\Release\CSGDesitnationCombo.obj
+.\Release\CtlTipOfTheDayText.obj
+.\Release\CtrlAxisRadio.obj
+.\Release\CtrlBrowseFile.obj
+.\Release\CtrlEditBoolean.obj
+.\Release\CtrlEditFlags.obj
+.\Release\CtrlEditFloat.obj
+.\Release\CtrlEditString.obj
+.\Release\CtrlEnumCombo.obj
+.\Release\CustomComboWnd.obj
+.\Release\DlgAllignVertices.obj
+.\Release\DlgAutoDeltaCSG.obj
+.\Release\DlgAutTexturize.obj
+.\Release\DlgBrowseByClass.obj
+.\Release\DlgComment.obj
+.\Release\DlgCreateVirtualDirectory.obj
+.\Release\DlgDisplaceMapSize.obj
+.\Release\DlgEditFloat.obj
+.\Release\DlgEditTerrainBrush.obj
+.\Release\DlgEditTerrainLayer.obj
+.\Release\DlgFilterPolygonSelection.obj
+.\Release\DlgFilterVertexSelection.obj
+.\Release\DlgGenerateFBM.obj
+.\Release\DlgLightAnimationEditor.obj
+.\Release\DlgLinkTree.obj
+.\Release\DlgMirrorAndStretch.obj
+.\Release\DlgNumericAlpha.obj
+.\Release\DlgPgGlobal.obj
+.\Release\DlgPgPolygon.obj
+.\Release\DlgPgPosition.obj
+.\Release\DlgPgPrimitive.obj
+.\Release\DlgPgRenderingStatistics.obj
+.\Release\DlgPgSector.obj
+.\Release\DlgPgShadow.obj
+.\Release\DlgPgTerrain.obj
+.\Release\DlgPgTexture.obj
+.\Release\DlgPreferences.obj
+.\Release\DlgProgress.obj
+.\Release\DlgRenderingPreferences.obj
+.\Release\DlgSelectByName.obj
+.\Release\DlgSnapVertex.obj
+.\Release\DlgStretchChildOffset.obj
+.\Release\DlgTEOperationSettings.obj
+.\Release\DlgTerrainProperties.obj
+.\Release\DlgTipOfTheDay.obj
+.\Release\DlgTreeShortcuts.obj
+.\Release\DlgWorldSettings.obj
+.\Release\EditMipSwitchDistance.obj
+.\Release\EntitySelectionListBox.obj
+.\Release\InfoFrame.obj
+.\Release\InfoSheet.obj
+.\Release\MainFrm.obj
+.\Release\PrimitiveHistoryCombo.obj
+.\Release\PropertyComboBar.obj
+.\Release\PropertyComboBox.obj
+.\Release\SkyFloat.obj
+.\Release\StdAfx.obj
+.\Release\TerrainEditing.obj
+.\Release\TerrainInterface.obj
+.\Release\ToolTipWnd.obj
+.\Release\TriangularisationCombo.obj
+.\Release\Viewers.obj
+.\Release\ViewTexture.obj
+.\Release\VirtualTreeCtrl.obj
+.\Release\VirtualTreeNode.obj
+.\Release\WndAnimationFrames.obj
+.\Release\WndDisplayTexture.obj
+.\Release\WndTerrainTilePalette.obj
+.\Release\WndTestAnimation.obj
+.\Release\WorldEditor.obj
+.\Release\WorldEditorDoc.obj
+.\Release\WorldEditorView.obj
+.\Release\WorldEditor.res
+\SAM_v110\Src110_X42\GameGUIMP\Release\GameGUI.lib
+\SAM_v110\Src110_X42\Shaders\Release\Shaders.lib
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPE846.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPE847.bat" with contents
+[
+@echo off
+copy Release\SeriousEditor.exe C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPE847.bat"
+Compiling resources...
+Compiling...
+StdAfx.cpp
+>> Uncomment include to terrain.h
+Compiling...
+ActiveTextureWnd.cpp
+Browser.cpp
+BrowseWindow.cpp
+BrushPaletteWnd.cpp
+ChildFrm.cpp
+ColoredButton.cpp
+ColorPaletteWnd.cpp
+CSGDesitnationCombo.cpp
+CtlTipOfTheDayText.cpp
+CtrlAxisRadio.cpp
+CtrlBrowseFile.cpp
+CtrlEditBoolean.cpp
+CtrlEditFlags.cpp
+CtrlEditFloat.cpp
+CtrlEditString.cpp
+CtrlEnumCombo.cpp
+CustomComboWnd.cpp
+DlgAllignVertices.cpp
+DlgAutoDeltaCSG.cpp
+DlgAutTexturize.cpp
+Generating Code...
+Compiling...
+DlgBrowseByClass.cpp
+DlgComment.cpp
+DlgCreateVirtualDirectory.cpp
+DlgDisplaceMapSize.cpp
+DlgEditFloat.cpp
+DlgEditTerrainBrush.cpp
+DlgEditTerrainLayer.cpp
+DlgFilterPolygonSelection.cpp
+DlgFilterVertexSelection.cpp
+DlgGenerateFBM.cpp
+DlgLightAnimationEditor.cpp
+DlgLinkTree.cpp
+DlgMirrorAndStretch.cpp
+DlgNumericAlpha.cpp
+DlgPgGlobal.cpp
+DlgPgPolygon.cpp
+DlgPgPosition.cpp
+DlgPgPrimitive.cpp
+DlgPgRenderingStatistics.cpp
+DlgPgSector.cpp
+Generating Code...
+Compiling...
+DlgPgShadow.cpp
+DlgPgTerrain.cpp
+DlgPgTexture.cpp
+DlgPreferences.cpp
+DlgProgress.cpp
+DlgRenderingPreferences.cpp
+DlgSelectByName.cpp
+DlgSnapVertex.cpp
+DlgStretchChildOffset.cpp
+DlgTEOperationSettings.cpp
+DlgTerrainProperties.cpp
+DlgTipOfTheDay.cpp
+DlgTreeShortcuts.cpp
+DlgWorldSettings.cpp
+EditMipSwitchDistance.cpp
+EntitySelectionListBox.cpp
+InfoFrame.cpp
+InfoSheet.cpp
+MainFrm.cpp
+PrimitiveHistoryCombo.cpp
+Generating Code...
+Compiling...
+PropertyComboBar.cpp
+PropertyComboBox.cpp
+SkyFloat.cpp
+TerrainEditing.cpp
+TerrainInterface.cpp
+ToolTipWnd.cpp
+TriangularisationCombo.cpp
+Viewers.cpp
+ViewTexture.cpp
+VirtualTreeCtrl.cpp
+VirtualTreeNode.cpp
+WndAnimationFrames.cpp
+WndDisplayTexture.cpp
+WndTerrainTilePalette.cpp
+WndTestAnimation.cpp
+WorldEditor.cpp
+WorldEditorDoc.cpp
+WorldEditorView.cpp
+Generating Code...
+Linking...
+<h3>Output Window</h3>
+Copying SeriousEditor binaries to C:\SAM_v110\Src110_X42\Bin
+
+
+
+<h3>Results</h3>
+SeriousEditor.exe - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>

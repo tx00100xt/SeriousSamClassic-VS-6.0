@@ -1,0 +1,142 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Entities - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPD094.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/Entities.pdb" /map:"Release/Entities.map" /debug /machine:I386 /out:"Release/Entities.dll" /implib:"Release/Entities.lib" /pdbtype:sept /libpath:"C:\SAM_v110\Src110_X42\Bin" /libpath:"C:\SAM_v110\Src110_X42\Bin\Debug" /libpath:"C:\SAM_v110\Src110_X42\Lib" 
+.\Release\Common.obj
+.\Release\HUD.obj
+.\Release\Particles.obj
+.\Release\PathFinding.obj
+.\Release\StdH.obj
+.\Release\AmmoItem.obj
+.\Release\AmmoPack.obj
+.\Release\AnimationChanger.obj
+.\Release\AnimationHub.obj
+.\Release\ArmorItem.obj
+.\Release\BackgroundViewer.obj
+.\Release\BasicEffects.obj
+.\Release\Beast.obj
+.\Release\BigHead.obj
+.\Release\BlendController.obj
+.\Release\BloodSpray.obj
+.\Release\Boneman.obj
+.\Release\Bouncer.obj
+.\Release\Bullet.obj
+.\Release\Camera.obj
+.\Release\CameraMarker.obj
+.\Release\CannonBall.obj
+.\Release\Copier.obj
+.\Release\Counter.obj
+.\Release\CrateRider.obj
+.\Release\Damager.obj
+.\Release\Debris.obj
+.\Release\DestroyableArchitecture.obj
+.\Release\Devil.obj
+.\Release\DevilMarker.obj
+.\Release\DevilProjectile.obj
+.\Release\DoorController.obj
+.\Release\EffectMarker.obj
+.\Release\Effector.obj
+.\Release\Elemental.obj
+.\Release\EnemyBase.obj
+.\Release\EnemyCounter.obj
+.\Release\EnemyDive.obj
+.\Release\EnemyFly.obj
+.\Release\EnemyMarker.obj
+.\Release\EnemyRunInto.obj
+.\Release\EnemySpawner.obj
+.\Release\EnvironmentBase.obj
+.\Release\EnvironmentMarker.obj
+.\Release\Eruptor.obj
+.\Release\Eyeman.obj
+.\Release\Fish.obj
+.\Release\Flame.obj
+.\Release\FogMarker.obj
+.\Release\Gizmo.obj
+.\Release\Global.obj
+.\Release\GradientMarker.obj
+.\Release\GravityMarker.obj
+.\Release\GravityRouter.obj
+.\Release\HazeMarker.obj
+.\Release\Headman.obj
+.\Release\HealthItem.obj
+.\Release\Item.obj
+.\Release\KeyItem.obj
+.\Release\Light.obj
+.\Release\Lightning.obj
+.\Release\Marker.obj
+.\Release\MessageHolder.obj
+.\Release\MessageItem.obj
+.\Release\MirrorMarker.obj
+.\Release\ModelDestruction.obj
+.\Release\ModelHolder.obj
+.\Release\ModelHolder2.obj
+.\Release\MovingBrush.obj
+.\Release\MovingBrushMarker.obj
+.\Release\MusicChanger.obj
+.\Release\MusicHolder.obj
+.\Release\NavigationMarker.obj
+.\Release\ParticlesHolder.obj
+.\Release\Pendulum.obj
+.\Release\Player.obj
+.\Release\PlayerActionMarker.obj
+.\Release\PlayerAnimator.obj
+.\Release\PlayerMarker.obj
+.\Release\PlayerView.obj
+.\Release\PlayerWeapons.obj
+.\Release\PlayerWeaponsEffects.obj
+.\Release\Projectile.obj
+.\Release\PyramidSpaceShip.obj
+.\Release\PyramidSpaceShipMarker.obj
+.\Release\Reminder.obj
+.\Release\RollingStone.obj
+.\Release\Scorpman.obj
+.\Release\Ship.obj
+.\Release\ShipMarker.obj
+.\Release\SoundHolder.obj
+.\Release\StormController.obj
+.\Release\Switch.obj
+.\Release\Teleport.obj
+.\Release\TouchField.obj
+.\Release\Trigger.obj
+.\Release\Twister.obj
+.\Release\VoiceHolder.obj
+.\Release\Walker.obj
+.\Release\Watcher.obj
+.\Release\WatchPlayers.obj
+.\Release\Water.obj
+.\Release\WeaponItem.obj
+.\Release\Werebull.obj
+.\Release\Woman.obj
+.\Release\WorldBase.obj
+.\Release\WorldLink.obj
+.\Release\WorldSettingsController.obj
+\SAM_v110\Src110_X42\Engine\Release\Engine.lib
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSPD094.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSPD095.bat" with contents
+[
+@echo off
+copy Release\Entities.dll C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\Entities.map C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\Entities.lib C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSPD095.bat"
+Linking...
+   Creating library Release/Entities.lib and object Release/Entities.exp
+<h3>Output Window</h3>
+Copying Entities binaries to C:\SAM_v110\Src110_X42\Bin
+
+
+
+<h3>Results</h3>
+Entities.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

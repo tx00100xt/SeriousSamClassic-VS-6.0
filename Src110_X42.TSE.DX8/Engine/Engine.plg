@@ -1,0 +1,26 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Engine - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP716C.bat" with contents
+[
+@echo off
+copy Release\Engine.dll C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\Engine.map C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\Engine.lib C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP716C.bat"
+<h3>Output Window</h3>
+Copying Engine binaries to C:\SAM_v110\Src110_X42\Bin
+
+
+
+<h3>Results</h3>
+Engine.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

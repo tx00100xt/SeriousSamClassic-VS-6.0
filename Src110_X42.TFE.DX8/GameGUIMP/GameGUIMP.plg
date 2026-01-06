@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GameGUIMP - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP60D0.tmp" with contents
+[
+/nologo /dll /incremental:no /pdb:"Release/GameGUI.pdb" /map:"Release/GameGUI.map" /debug /machine:I386 /out:"Release/GameGUI.dll" /implib:"Release/GameGUI.lib" /pdbtype:sept /libpath:"C:\SAM_v110\Src110_X42\Bin" /libpath:"C:\SAM_v110\Src110_X42\Bin\Debug" /libpath:"C:\SAM_v110\Src110_X42\Lib" 
+.\Release\ActionsListControl.obj
+.\Release\AxisListCtrl.obj
+.\Release\ConsoleSymbolsCombo.obj
+.\Release\DlgAudioQuality.obj
+.\Release\DlgConsole.obj
+.\Release\DlgEditButtonAction.obj
+.\Release\DlgPlayerAppearance.obj
+.\Release\DlgPlayerControls.obj
+.\Release\DlgPlayerSettings.obj
+.\Release\DlgRenameControls.obj
+.\Release\DlgSelectPlayer.obj
+.\Release\DlgVideoQuality.obj
+.\Release\EditConsole.obj
+.\Release\GameGUI.obj
+.\Release\LocalPlayersList.obj
+.\Release\PressKeyEditControl.obj
+.\Release\StdAfx.obj
+.\Release\GameGUI.res
+\SAM_v110\Src110_X42\EngineGUI\Release\EngineGUI.lib
+\SAM_v110\Src110_X42\GameMP\Release\Game.lib
+\SAM_v110\Src110_X42\Entities\Release\Entities.lib
+]
+Creating command line "link.exe @C:\Users\TX0010~1\AppData\Local\Temp\RSP60D0.tmp"
+Creating temporary file "C:\Users\TX0010~1\AppData\Local\Temp\RSP60D1.bat" with contents
+[
+@echo off
+copy Release\GameGUI.dll C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\GameGUI.map C:\SAM_v110\Src110_X42\Bin >nul
+copy Release\GameGUI.lib C:\SAM_v110\Src110_X42\Bin >nul
+]
+Creating command line "C:\Users\TX0010~1\AppData\Local\Temp\RSP60D1.bat"
+Linking...
+   Creating library Release/GameGUI.lib and object Release/GameGUI.exp
+<h3>Output Window</h3>
+Copying GameGUI binaries to C:\SAM_v110\Src110_X42\Bin
+
+
+
+<h3>Results</h3>
+GameGUI.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
